@@ -88,7 +88,7 @@ $(document).ready(function(){
         });*/
        
 	// 顶部气球浮动效果
-	var head=$(".intro-body");
+	/*var head=$(".intro-body");
 	var color=["green","blue","red","yellow"];
 	var colorNum=Math.round(Math.random()*3);//随机生成（0-3）不同的颜色
 	var num=4;
@@ -105,7 +105,7 @@ $(document).ready(function(){
 			createball();
 		}
 	}
-	play();
+	play();*/
 })
 	
 	
