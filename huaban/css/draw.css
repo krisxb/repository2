@@ -1,0 +1,150 @@
+body,ul,li,dl,dd,a{
+	margin:0;
+	padding:0;
+	font-family: "Microsoft YaHei";
+}
+*{
+	margin:0;
+	padding:0;
+}
+.box{
+	width:100%;
+	margin-left:120px;
+	height:768px;
+
+}
+canvas{
+	border:1px solid #000;
+	display: block;
+
+}
+.left{
+	width:120px;
+	height: 100%;
+	margin-left: -120px;
+	background:#5B5B5B;
+	float: left;
+
+}
+.left .left-inner{
+	width:100px;
+	height:738px;
+	margin:20px 10px 10px 10px;
+	background:#CECECE;
+	border-radius:6px;
+}
+.left .left-inner span{
+	display: block;
+	width:100%;
+	height: 2px;
+	background:#AAAAAA; 
+	position:relative;
+	top:20px;
+}
+.left .left-inner .title-ps{
+	width: 100%;
+	height: 35px;
+	background: #205299;
+	position: relative;
+	top:21px;
+}
+.left .left-inner .title-ps h3{
+	color:#fff;
+	line-height: 35px;
+	text-align: center;
+}
+.left .left-inner .tools{
+	width:84px;
+	height:675px;
+	position: relative;
+	top:25px;
+	margin:0px 8px 15px 8px;
+}
+.right{
+	width: 100%;
+	height: 100%;
+	float: right;
+	background: #FFFFE0;
+}
+.right .palette-box{
+	position: absolute;
+	left: 130px;
+	box-shadow: 6px 6px 5px #205299;
+}
+.tools>div{
+	width:40px;
+	height:40px;
+	text-align: center;
+	margin-right: 2px;
+	margin-bottom: 10px;
+	float: left;
+	border-radius: 4px;
+	
+}
+.tools>div:nth-child(1){
+	background:url(../images/new.jpg) no-repeat;
+	background-size: cover;
+
+}
+.tools>div:nth-child(2){
+	background:url(../images/save.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(3){
+	background:url(../images/cancle.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(4){
+	background:url(../images/Move.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(5){
+	background:url(../images/Line.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(6){
+	background:url(../images/Polygon.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(7){
+	background:url(../images/PaintBucket.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(8){
+	background:url(../images/RectangularMarquee.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(9){
+	background:url(../images/Rectangle.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(10){
+	background:url(../images/Sharpen.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(11){
+	background:url(../images/Pencil.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(12){
+	background:url(../images/Eraser.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(13){
+	background:url(../images/Ellipse.jpg) no-repeat;
+	background-size: cover;
+}
+.tools>div:nth-child(14){
+	background:url(../images/Custom.jpg) no-repeat;
+	background-size: cover;
+}
+.fillstyle input{
+	width: 40px;
+	height: 40px;
+}
+.strokestyle input{
+	width: 40px;
+	height: 40px;
+}
+
+	
