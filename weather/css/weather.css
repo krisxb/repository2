@@ -1,0 +1,241 @@
+body,ul,li,span,a,i{
+	margin:0;
+	padding:0;
+	display: block;
+	font-style: normal;
+}
+body{
+	background-image: url(../img/weather3.jpeg);
+	background-size: cover;
+	font-family: Tahoma,Arial,Roboto,”Droid Sans”,”Helvetica Neue”,”Droid Sans Fallback”,”Heiti SC”,sans-self;
+}
+@font-face {font-family: 'iconfont';
+    src: url('weather/iconfont.eot'); /* IE9*/
+    src: url('weather/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('weather/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('weather/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('weather/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+header{
+	width:100%;
+	height:40px;
+	color: #fff;
+}
+header .nav{
+	width:35px;
+	height:100%;
+	margin-left:10px;
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	float:left;
+}
+header .city{
+	width:40%;
+	height:100%;
+	float:left;
+	position:relative;
+	left: 20%;
+	text-align: center;
+	font-size: 24px;
+}
+header .share{
+	width:10%;
+	height:100%;
+	float:right;
+	text-align: center;
+	font-size: 24px;
+}
+.weather-location{
+	width:100%;
+	height: 100px;
+	color:#fff;
+
+}
+.weather-location .weather-info{
+	width:70px;
+	height: 70px;
+	padding:15px 0px 15px 15px;
+}
+.weather-location .weather-info .weather-wendu{
+	font-size: 36px;
+}
+.weather-data{
+	width:100%;
+	height: 145px;
+	display: table;
+	background: #fff;
+}
+.weather-data img{
+	width:45px;
+	height: 45px;
+}
+.weather-data ul{
+	display: table;
+	margin:5% auto;
+	width:90%;
+	height: 116px;
+}
+.weather-data ul li{
+	display: table-cell;
+	text-align: center;
+	font-size: 16px;
+}
+/*aqi 空气质量指数 Begin*/
+.weather-api{
+	width:100%;
+	height:122px;
+	margin-top:15px;
+	background:#fff;
+	position: relative;
+}
+.weather-api .api-content{
+	width:90%;
+	position: absolute;
+	height: 90px;
+	top:15px;
+	left:5%;
+}
+.weather-api .api-content .api-quality{
+	width:25%;
+	height: 100%;
+	float: left;
+}
+.weather-api .api-content .api-quality span{
+	width:100%;
+	color: #4180EA;
+}
+.weather-api .api-content .api-quality span:nth-of-type(3){
+	font-size: 36px;
+}
+.weather-api .api-content .api-num{
+	width:75%;
+	height: 100%;
+	float:right;
+	color:#8C8C8C;
+}
+.weather-api .api-content .api-num  i{
+	font-style: normal;
+	font-size: 10px;
+	display: block;
+	height:15px;
+	width: 100%;
+}
+h6{
+	margin:0;
+	padding:0;
+}
+.zhiliang{
+	display: inline-block;
+}
+.weather-api .api-content .api-num span{
+	height: 30px;
+}
+.weather-api .api-content .api-num  i h6:nth-of-type(1){
+	float: left;
+}
+.weather-api .api-content .api-num  i h6:nth-of-type(2){
+	float:right;
+}
+.weather-api .api-content .api-num .api-pro{
+	width: 100%;
+	height: 3px;
+	background: #EFEFEF;
+	margin-top: 3px;
+	position: relative;
+}
+.weather-api .api-content .api-num .api-pro .api-progress{
+	position: absolute;
+	height: 100%;
+	background:#4180EA;
+}
+.weather-api .api-content .api-num .api-pro .api-progress-1{
+	width: 15%;
+}
+.weather-api .api-content .api-num .api-pro .api-progress-2{
+	width: 8%;
+}
+/*aqi 空气质量指数 end*/
+/*suggestion 生活指数 begin*/
+.api-suggest{
+	width:100%;
+	height:300px;
+	margin-top: 15px;
+	background: #FAFAFA;
+	position: relative;
+}
+ul li{
+	display: block;
+	margin:0;
+	padding:0;
+}
+.api-suggest ul{
+	width:90%;
+	height: 120px;
+	margin: 0 auto;
+	top:15px;
+	display: table;
+	
+}
+.api-suggest ul .api-suggest-img{
+	width: 60px;
+	height: 60px;
+	background: url(../img/zhishu.png) no-repeat;
+}
+.api-suggest ul li{
+	display: table-cell;
+	margin-right: 15px;
+}
+.api-suggest ul li span{
+	margin-top: 6px;
+	text-align: center;
+}
+.api-suggest ul li .api-zhishu{
+	color: #8C8C8C;
+}
+.api-suggest ul li .api-feel{
+	font-weight: 700;
+	font-size: 14px;
+}
+.api-suggest ul li .api-suggest-img{
+	margin:0 auto;
+}
+.api-suggest ul li .sport{
+	background-position: 0px 0px;
+}
+.api-suggest ul li .car{
+	background-position: -104px 0px;
+}
+.api-suggest ul li .purple{
+	background-position: -203px 0px;
+}
+.api-suggest-img-2{
+	width: 60px;
+	height: 60px;
+	background: url(../img/zhishu2.png) no-repeat;
+	margin: 0 auto;
+}
+.api-suggest ul li .travel{
+	background-position: 0px 0px;
+}
+.api-suggest ul li .clothes{
+	background-position: -208px 0px;
+}
+.api-suggest ul li .soft{
+	background-position: -305px 0px;
+}
+/*suggestion 生活指数 end*/
+.copy-from{
+	margin-top:15px;
+	width: 100%;
+	height: 24px;
+	text-align: center;
+	color:#8C8C8C;
+	font-size: 10px;
+}
