@@ -1,29 +1,21 @@
-/*
-   HTML5STICKY v1.0.0 (http://github.com/sarfraznawaz2005/HTML5Sticky)
-   ================================================================
-   Author   : Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
-   Twitter  : @sarfraznawaz
-   Blog     : http://sarfraznawaz.wordpress.com/
-   LICENSE  : MIT
-   ================================================================
-*/
 
-var stickywidth = 200;  // width of sticky note (can't be less than 200)
-var stickyheight = 200; // height of sticky note (can't be less than 200)
-var max_notes = 500; // maximum number of notes one can store
+
+var stickywidth = 200;  // 
+var stickyheight = 200; // 
+var max_notes = 500; // 
 var allowed_tags = '<br /><br><ol></ol><ul></ul><li></li><strong></strong><i></i>';
 
 var html5sticky = {};
 var note_index = 0;
 
-// add a note
+// 增加便签
 html5sticky.addNote = function(){
 
     // count total present notes
     var tnotes = $('.note_common').length;
 
     if (tnotes === max_notes){
-       alert('You can not add any more notes, please delete some to add more.');
+       alert('你不能够增加新的标签了，需要删除一些.');
        return false;
     }
 
@@ -55,13 +47,7 @@ html5sticky.addNote = function(){
        $('#removenotes').slideDown('slow');
     }
 
-    //$(stickynote).find('h2').attr('contentEditable', true);
-    //$(stickynote).find('p').attr('contentEditable', true);
-
-    // add utility buttons
-    //html5sticky.addUtilityButtons(stickynote);
-
-    // scroll to newly added sticky note
+    
     $('html, body').animate({
       scrollTop:$(stickynote).offset().top
     });
@@ -116,7 +102,7 @@ html5sticky.saveNote = function(el){
       var ptext = html5sticky.stripTags($(el).closest('.bignote').find('.pedit')[0].value, allowed_tags);
       ptext = ptext.replace(/\r?\n/g, '<br />');
       
-      localStorage.setItem(identifier + '|text', htext + '|' + ptext);
+      localStorage.setItem(identifier + '|text', htext + '|' + ptext);//
 
       $('[id^=idf_' + identifier + ']').closest('.note_common').find('h2').text(htext);
       $('[id^=idf_' + identifier + ']').closest('.note_common').find('p').html(ptext);
@@ -149,7 +135,7 @@ html5sticky.getIdentifier = function(el){
 
 // delete note
 html5sticky.deleteNote = function(el){
-    if (confirm('Are you sure you want to delete this sticky note ?')){
+    if (confirm('确定要删除当前便签 ?')){
 
          // delete from storage also
          if (Modernizr.localstorage){
@@ -177,7 +163,7 @@ html5sticky.deleteNote = function(el){
 
 // delete all notes
 html5sticky.deleteAllNotes = function(){
-    if (confirm('Are you sure you want to delete ALL sticky note ?')){
+    if (confirm('确定要删除所有便签？')){
          $('.note_common').fadeOut('slow', function(){
             $('.note_common').remove();
             localStorage.clear();
