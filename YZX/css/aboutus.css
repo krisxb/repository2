@@ -312,6 +312,11 @@ li {
 .yzx-download-left li {
   margin-right: 18px;
 }
+.yzx-download-left li a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
 .yzx-download-left li img {
   width: 100px;
 }
