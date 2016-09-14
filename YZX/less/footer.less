@@ -1,0 +1,370 @@
+.fl{
+  float:left;
+}
+.fr{
+  float:right;
+}
+.cf:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+body{
+  font-family: "Microsoft YaHei";
+}
+a,ul,li{
+  list-style:none;
+  text-decoration: none;
+  margin:0;
+  padding:0;
+}
+//下载 begin
+.yzx-download{
+  background: #424242;
+}
+.index-content{
+  padding-top:40px;
+  padding-botom:40px;
+}
+.box:before, .box:after{
+  content:" ";
+  display:table;
+}
+.box_down_aside a{
+  font-size:18px;
+  color:#7B7B7B;
+  line-height: 30px;
+  font-weight: 300;
+}
+.box_down_aside img{
+  width:163px;
+  height: 163px;
+}
+.down{
+  display: block;
+  margin-top:20px;
+}
+.box:after{
+  clear:both;
+}
+//显示下载的list
+.downlist li{
+  height:auto;
+  width:100%;
+  background:#333333;
+  .downlistword{
+    font-size: 1.75rem;
+    line-height:44px;
+    color:#fff;
+    text-align: left;
+    display: block;
+    height:100%;
+    background:#424242;
+    margin-bottom:10px;
+    text-indent:8px;
+    border-bottom:1px solid #333333;
+  }
+  .downlistword:nth-of-type(1){
+    margin-bottom:0px;
+  }
+  .downlistword>i{
+    float:right;
+    font-style: normal;
+    font-weight:normal;
+    margin-right:8px;
+    font-size:2rem;
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+    transition: transform .3s ease, -webkit-transform .3s ease;
+  }
+  .downlistword>i.active{
+    transform:rotate(45deg);
+  }
+  .downlistbtn{
+    width:6px;
+    height:13px;
+    display: block;
+    margin-right:15px;
+    margin-top:18px;
+    background:url(../images/home/jiantou.png);
+  }
+  .downlistpic{
+    width:104px;
+    height:104px;
+    display:block;
+    margin:0 auto;
+    background: url("../images/home/weixin.jpg");
+    background-size: cover;
+    display:none;
+  }
+}
+//下载 end
+//footer begin
+.footer{
+  width:100%;
+  //height:35px;
+  background:#333333;
+  p{
+    display:block;
+    margin:0 10%;
+    padding:0;
+    text-align: center;
+    font-size: 12px;
+    color:#7B7B7B;
+    width:80%;
+    line-height: 35px;
+  }
+}
+//footer end
+//媒体查询 begin
+@media (min-width:768px){
+  .nav-right .navbar-daohang .navbar-daohang-content{
+    font-size: 16px;
+  }
+  .nav-right .navbar-daohang .navbar-daohang-content li{
+    width:14%;
+    margin-right:10px;
+  }
+  .rd-mobilepanel, .rd-mobilemenu{
+    display: none;
+  }
+  .banner-box{
+    height:720px;
+  }
+}
+@media (min-width:1200px){
+  .nav-right .navbar-daohang .navbar-daohang-content{
+    font-size: 22px;
+  }
+
+}
+//手机端的响应
+@media screen and (max-width:768px){
+  .navbox{
+    display: none;
+  }
+  .banner-box{
+    height:518px;
+  }
+  .banner-box-tq{
+    background-image:url(../images/home/banner-tq.jpg)!important;
+  }
+  .banner-box-zm{
+    background-image:url(../images/home/banner-zm.jpg)!important;
+  }
+  .banner-box-sp{
+    background-image:url(../images/home/banner-sp.jpg)!important;
+  }
+  .banner-box-xt{
+    background-image:url(../images/home/banner-xt.jpg)!important;
+  }
+  .rd-mobilepanel{
+    display:block;
+  }
+  .carousel-control{
+    display: none;
+  }
+  .box_down_aside{
+    float:none;
+    text-align: center;
+    margin-right:0;
+  }
+  .row .col-xs-4{
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+  .rd-mobilemenu, .rd-mobilepanel{
+    display:block;
+  }
+}
+@media screen and (max-width:550px){
+  .row .col-xs-4{
+    clear:both;
+    width:100%;
+  }
+  .hd{
+    display: none;
+  }
+}
+@media screen and (min-width:550px){
+  .downlist{
+    display: none;
+  }
+}
+.hd{
+  margin-top:40px;
+  margin-bottom:20px;
+}
+//媒体查询 end
+//******手机端响应 begin***
+.rd-mobilepanel{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:0;
+  height:56px;
+  background:#232424;
+  box-shadow:0 3px 3px 0 rgba(0,0,0,0.1);
+  -moz-box-shadow:0 3px 3px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow:0 3px 3px 0 rgba(0,0,0,0.1);
+  z-index:9999;
+}
+.rd-mobile-logo{
+  width:50px;
+  height:25px;
+  margin-top:auto;
+  float:right;
+  top:12px;
+  right:12px;
+  position:relative;
+}
+.rd-mobilepanel .daohang-name{
+  height:100%;
+  margin:0px auto;
+  text-align: center;
+  color:#fff;
+  font-size: 22px;
+  line-height:56px;
+  position: absolute;
+  left: 40%;
+}
+.rd-toggle{
+  float:left;
+  position:fixed;
+  top:4px;
+  left:8px;
+  width:48px;
+  height:48px;
+  -moz-transition:0.2s;
+  -webkit-transition:0.2s;
+  -o-transition:0.2s;
+  transition:0.2s;
+  border-color:transparent;
+}
+.rd-toggle span{
+  position:relative;
+  display: block;
+  margin:auto;
+  top:50%;
+  -moz-transition:all 0.3s ease;
+  -webkit-transition:all 0.3s ease;
+  -o-transition:all 0.3s ease;
+  transition:all 0.3s ease;
+
+}
+.rd-toggle span:after, .rd-toggle span:before, .rd-toggle span{
+  width:24px;
+  height:4px;
+  background-color:#00b4ff;
+  border-radius:2px;
+  -webkit-border-radius:2px;
+  -o-border-radius:2px;
+  -moz-border-radius:2px;
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden;	/* Chrome 和 Safari */
+  -moz-backface-visibility:hidden; 	/* Firefox */
+  -ms-backface-visibility:hidden; 	/* Internet Explorer */
+}
+.rd-toggle span:after, .rd-toggle span:before{
+  content:"";
+  position: absolute;
+  left:0;
+  top:-8px;
+}
+.rd-toggle span:after{
+  top:8px;
+}
+.rd-toggle.active span{
+  transition:background 0.3s 0s ease;
+  background:transparent;
+}
+/*动画效果 begin*/
+.rd-toggle.active span:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.rd-toggle.active span:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+.rd-toggle.active span:before, .rd-toggle.active span:after {
+  top: 0;
+  -webkit-transition-delay: 0s, 0.3s;
+  transition-delay: 0s, 0.3s;
+}
+//动画延长时间
+.rd-toggle span:before, .rd-toggle span:after {
+  -webkit-transition-duration: 0.3s, 0.3s;
+  transition-duration: 0.3s, 0.3s;
+  -webkit-transition-delay: 0.3s, 0s;
+  transition-delay: 0.3s, 0s;
+  -webkit-transition-property: top, -webkit-transform;
+  transition-property: top, transform;
+}
+/*动画效果 end*/
+//手机下拉菜单begin
+.rd-mobilemenu_ul.active{
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+.rd-mobilemenu{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  z-index:99999;
+  text-align: left;
+}
+.rd-mobilemenu_ul{
+  position:fixed;
+  top:56px;
+  left:0px;
+  width:240px;
+  color:#00b4ff;
+  background:#232424;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height:20px;
+  display: block;
+  overflow: auto;
+  box-shadow: 5px 0 5px 0 rgba(0,0,0,0.1);
+  //下拉菜单动画效果
+  -moz-transform: translateX(-240px);
+  -ms-transform: translateX(-240px);
+  -o-transform: translateX(-240px);
+  -webkit-transform: translateX(-240px);
+  transform: translateX(-240px);
+  -moz-transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  -moz-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);//贝塞尔曲线动画函数
+  -webkit-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+}
+.rd-mobilemenu_ul li{
+  display: block;
+  //height:68px;
+  border-bottom:1px solid #00b4ff;
+}
+.rd-mobilemenu_ul li:nth-of-type(6){
+  border-bottom:none;
+}
+.rd-mobilemenu_ul a{
+  color:#fff;
+  display: block;
+  padding:14px 25px 16px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+//手机下拉菜单end
+//******手机端响应 end***
