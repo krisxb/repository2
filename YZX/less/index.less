@@ -134,21 +134,22 @@ a,ul,li{
 .nav-right .navbar-daohang .navbar-daohang-content li.hot>a {
   color: #00b4ff;
 }
-.carousel-control .icon-prev2, .carousel-control .icon-next2{
-  display:block;
-  position:absolute;
-  left:15%;
-    top:50%;
+.carousel-control .icon-prev, .carousel-control .icon-next{
    width:30% !important;
    height:30% !important;
 }
-
-.icon-prev2{
+.carousel-control .icon-prev:before{
+  content:""
+}
+.carousel-control .icon-next:before{
+  content:""
+}
+.icon-prev{
   background-image:url("../images/home/btnl.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
-.icon-next2{
+.icon-next{
   background-image:url("../images/home/btnr.png");
   background-repeat: no-repeat;
   background-size: contain;
