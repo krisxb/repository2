@@ -339,8 +339,8 @@ li {
 .downlist li .downlistword {
   margin-bottom: 0px;
 }
-.downlist li .nth {
-  margin-bottom: 0px;
+.downlist li .downlist {
+  margin-bottom: 10px;
 }
 .downlist li .downlistword > i {
   float: right;

@@ -20,7 +20,7 @@
     <favorites_list name="YZX" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6595238">
+    <splitter split-orientation="horizontal" split-proportion="0.6456071">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -38,7 +38,7 @@
           <file leaf-file-name="jishu.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/jishu.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="439">
+                <state relative-caret-position="459">
                   <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding />
                 </state>
@@ -48,7 +48,7 @@
           <file leaf-file-name="fangan.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/fangan.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="438">
+                <state relative-caret-position="459">
                   <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding />
                 </state>
@@ -58,7 +58,7 @@
           <file leaf-file-name="qudao.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/qudao.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="448">
+                <state relative-caret-position="459">
                   <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
                   <folding />
                 </state>
@@ -68,7 +68,7 @@
           <file leaf-file-name="aboutus.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/aboutus.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
+                <state relative-caret-position="452">
                   <caret line="336" column="54" selection-start-line="336" selection-start-column="54" selection-end-line="336" selection-end-column="54" />
                   <folding />
                 </state>
@@ -92,8 +92,8 @@
           <file leaf-file-name="index.less" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/less/index.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="163">
-                  <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
+                <state relative-caret-position="271">
+                  <caret line="349" column="23" selection-start-line="349" selection-start-column="23" selection-end-line="349" selection-end-column="23" />
                   <folding>
                     <element signature="e#3#20#0" expanded="false" />
                     <element signature="e#24#42#0" expanded="false" />
@@ -162,9 +162,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-503" />
-    <option name="y" value="66" />
-    <option name="width" value="1386" />
+    <option name="x" value="-133" />
+    <option name="width" value="1148" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -246,8 +245,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,18 +344,19 @@
       <workItem from="1473845400066" duration="7315000" />
       <workItem from="1474249117302" duration="11212000" />
       <workItem from="1474336649042" duration="719000" />
-      <workItem from="1475128066866" duration="4983000" />
+      <workItem from="1475128066866" duration="5550000" />
+      <workItem from="1475139794830" duration="58000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="308167000" />
+    <option name="totallyTimeSpent" value="308792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-503" y="66" width="1386" height="744" extended-state="1" />
+    <frame x="-133" y="0" width="1148" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.087537095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08738739" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -738,7 +738,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jishu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
+        <state relative-caret-position="459">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
@@ -746,7 +746,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fangan.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
+        <state relative-caret-position="459">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
@@ -754,7 +754,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/qudao.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
+        <state relative-caret-position="459">
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
@@ -762,7 +762,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aboutus.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="452">
           <caret line="336" column="54" selection-start-line="336" selection-start-column="54" selection-end-line="336" selection-end-column="54" />
           <folding />
         </state>
@@ -770,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/index.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
+        <state relative-caret-position="271">
+          <caret line="349" column="23" selection-start-line="349" selection-start-column="23" selection-end-line="349" selection-end-column="23" />
           <folding>
             <element signature="e#3#20#0" expanded="false" />
             <element signature="e#24#42#0" expanded="false" />
