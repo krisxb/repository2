@@ -1319,6 +1319,7 @@ body{
 }
 .section12-bottom .section12-server{
 	height:20px;
+	font-size: 0.12rem;
 	line-height: 20px;
 	position: relative;
 	left:-120%;
@@ -1385,6 +1386,7 @@ body{
 	display: none;
 }
 .section12-bottom-13 .section12-server-13{
+	font-size: 0.12rem;
 	height:20px;
 	line-height: 20px;
 }
