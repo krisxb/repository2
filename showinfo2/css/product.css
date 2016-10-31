@@ -1,0 +1,2188 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body{
+	font-family: "Microsoft Yahei";
+	color:#fff;
+}
+.fp-tableCell{
+	vertical-align:top!important;
+}
+#content{
+	width:100%;
+	height:100%;
+}
+.cf:after{
+	display: block;
+	clear:both;
+}
+.section1{
+	background: url(../images/page-1.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+/*音乐的部分 begin*/
+.music-wrap{
+	position:absolute;
+	top:0.15rem;
+	right:0.15rem;
+}
+.music-wrap .icon-music{
+	width:28px;
+	height:28px;
+	display: block;
+	background-image:url(../images/arrow.png);
+	background-size:922px 135px;
+	background-position: -632px -93px;
+}
+.music-wrap .off{
+	background-position: -661px -93px;
+}
+/*箭头的部分*/
+.arrow-area{
+	position:absolute;
+	right:45%;
+	bottom:0.1rem;
+	width:44px;
+	height:44px;
+}
+.arrow-area .arrow{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	background-image:url(../images/arrow.png);
+	background-size:922px 135px;
+	background-position: 0 -120px;
+}
+.arrow-area .arrow{
+	width:20px;
+	height:11px;
+	z-index: 9999;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	animation: fadeInUp 1.5s .2s ease infinite;
+    -webkit-animation: fadeInUp 1.5s .2s infinite;
+}
+/*箭头的部分 end*/
+/*第二屏 begin*/
+.section2{
+	background:url(../images/pink-bg.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section2-content{
+	width:100%;
+	height:75px;
+	margin-top:30px;
+}
+.section2-content .section2-title{
+	width:85%;
+	height:100%;
+	float:right;
+	overflow: hidden;
+	position: relative;
+}
+.section2-content .section2-title .yellow-flower{
+	width:45px;
+	height:45px;
+	position: absolute;
+	z-index: 999;
+	background:url(../images/yellow-flower.png);
+	background-size: cover;
+}
+.section2-content  .title-right .title-sun{
+	width:230px;
+	height:43px;
+	margin-left:32px;
+	border-bottom:2px solid #fff;
+	background:url(../images/sun-title.png);
+	background-size: cover;
+	position: relative;
+	right:-100%;
+}
+.section2-content  .title-right .title-start{
+	width:230px;
+	height:13px;
+	margin-left: 32px;
+	margin-top:3px;
+	background:url(../images/title-start.png);
+	background-size: cover;
+	position: relative;
+	top:-13px;
+	display: none;
+}
+/*brown  begin*/
+.brown-content{
+	width:100%;
+	height:auto;
+	margin-top:23px;
+}
+.brown-content .brown-car{
+	width:100%;
+	height:1.4rem;
+	background:url(../images/white-bg.png);
+	background-size: cover;
+	position: relative;
+	left:-120%;
+}
+.brown-content .brown-car .brown-pic{
+	width:0;
+	height:0;
+	position: absolute;
+	background:url(../images/brown-car.png);
+	background-size: cover;
+	left:-5px;
+	top:-18px;
+}
+/*brown  end*/
+/*dark begin*/
+.dark-content{
+	width:100%;
+	height:180px;
+	margin-top:0.1rem;
+	display: none;
+}
+.dark-content .dark{
+	width:100%;
+}
+/*第二屏 end*/
+/*第三屏 begin*/
+.section3{
+	background:url(../images/blue-bg.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section3-top{
+	width:90%;
+	height:2rem;
+	margin-top:0.3rem;
+	margin-left:0.3rem;
+	position: relative;
+	z-index: 99;
+}
+.section3-top .title-time{
+	width:140px;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.section3-top .title-time .good-time{
+	width:100%;
+	height:45px;
+	background:url(../images/good-time.png);
+	background-size:cover;
+	position: absolute;
+	top:15px;
+	display: none;
+}
+.section3-top .title-time .word-line-1{
+	width:100%;
+	height:35px;
+	background:url(../images/line-top.png);
+	background-size:cover;
+	position: relative;
+	right:-120%;
+}
+.section3-top .title-time .word-line-2{
+	width:100%;
+	height:35px;
+	background:url(../images/line-bottom.png);
+	background-size:cover;
+	position: relative;
+	left:-120%;
+}
+.section3-top .title-time .word-rain{
+	width:100%;
+	height:35px;
+	background:url(../images/rain.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-16px;
+	left:-120%;
+
+}
+.section3-top .gray-car{
+	width:80%;
+	height:80%;
+	position: absolute;
+	right:0;
+	bottom: 0;
+	z-index: 999;
+}
+.section3-top .gray-car .car-aodi{
+	width:220px;
+	height:115px;
+	position: absolute;
+	bottom: 0;
+	right:-7px;
+	display: none;
+}
+.section3-top .gray-car .car-aodi .aodi{
+	width:100%;
+	height:auto;
+}
+.section3-middle{
+	width:100%;
+	height:1.5rem;
+	margin-top:0.1rem;
+	position: relative;
+}
+.section3-middle .middle-left{
+	width:90%;
+	height:100%;
+	margin-left: 0.3rem;
+}
+.section3-middle .middle-left .middle-left-word{
+	width:50%;
+	font-size: 0.14rem;
+	color:#000;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin-top: 35px;
+	float: left;
+	display: none;
+}
+.section3-middle .middle-left .middle-left-word li{
+	text-align: center;
+}
+.section3-middle .middle-left .middle-left-line{
+	width:48%;
+	height:100%;
+	float: left;
+	position: relative;
+}
+.section3-middle .middle-left .middle-left-line .left-line{
+	width:100%;
+	height: 100%;
+	position: absolute;
+	left:0;
+	top:0;
+	/*border:1px solid #8bcde7;*/
+	transition:all 0.5s linear;
+	/*z-index: 99;*/
+}
+.section3-middle .middle-left .middle-left-line img{
+	position: absolute;
+	left:0;
+	top:0;
+	display: block;
+	width:0;
+	height:0;
+	border:1px solid #5eb7dc;
+}
+.section3-bottom{
+	width:100%;
+	height:1.65rem;
+	position:relative;
+	top:-0.2rem;
+}
+.section3-bottom .bottom-right{
+	width:90%;
+	height:100%;
+	margin-left:0.3rem;
+	overflow: hidden;
+}
+.section3-bottom .bottom-right .middle-right-line{
+	width:53%;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.section3-bottom .bottom-right .middle-right-line img{
+	width:0;
+	height:0;
+	border:1px solid #5eb7dc;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.section3-bottom .bottom-right .middle-right-word{
+	width:42%;
+	font-size: 0.12rem;
+	color:#000;
+	letter-spacing: 1px;
+	line-height: 20px;
+	margin-top: 85px;
+	float: left;
+	margin-left:0.08rem;
+	display: none;
+}
+.section3-bottom .bottom-right .middle-right-word li{
+	text-align: center;
+}
+.section3-bottom .bottom-right .middle-right-word:nth-of-type(1){
+	margin-top:55px;
+}
+/*第三屏 end*/
+/*第四屏 begin*/
+.section4{
+	background:url(../images/huise.jpg);
+	background-size: cover;
+	overflow: hidden;
+	color:#000;
+}
+.section4 .section4-but{
+	width:100%;
+	height:1.35rem;
+	margin-top:0.3rem;
+}
+.section4 .section4-but .but-title{
+	height:0.75rem;
+	width:100px;
+	margin-left:0.6rem;
+	position: relative;
+}
+.section4 .section4-but .but-title .but-line-1{
+	width:100%;
+	height:30px;
+	background:url(../images/white-top.png);
+	background-size: cover;
+	position: relative;
+	right:-600px;
+}
+.section4 .section4-but .but-title .but-content{
+	width:100%;
+	height:40px;
+	background:url(../images/but.png);
+	background-size: cover;
+	position:relative;
+	top:-18px;
+	left:0;
+	display: none;
+
+}
+.section4 .section4-but .but-title .but-line-2{
+	width:100%;
+	height:30px;
+	background:url(../images/white-bottom.png);
+	background-size: cover;
+	position:relative;
+	top:-30px;
+	left:-600px;
+}
+.section4 .section4-but  .but-word{
+	width:250px;
+	margin-left:0.6rem;
+	margin-top:10px;
+	font-size: 0.18rem;
+	display: none;
+}
+.section4 .section4-but  .but-word li{
+	line-height:20px;
+
+	letter-spacing:1px;
+}
+.section4-example{
+	width:100%;
+	height:3.5rem;
+	position: relative;
+	margin-top:0.3rem;
+}
+.section4-example .example-left{
+	width:50%;
+	height: 100%;
+	position:absolute;
+	left:0;
+}
+.section4-example .example-left .example-title{
+	width:100px;
+	height:0.75rem;
+	position: relative;
+	margin-right:0.3rem;
+	display: none;
+}
+.section4-example .example-left .example-people{
+	width:100px;
+	height:155px;
+	background:url(../images/people-carzy.png);
+	background-size: cover;
+	position:absolute;
+	bottom:-120%;
+	left:0.1rem;
+
+}
+.section4-example .example-left .example-title .example-line-top{
+	width:100%;
+	height:30px;
+	background:url(../images/white-top.png);
+	background-size: cover;
+}
+.section4-example .example-left .example-title .example-content{
+	width:100%;
+	height:40px;
+	background:url(../images/example.png);
+	background-size: cover;
+	position:relative;
+	left:0px;
+	top:-18px;
+}
+.section4-example .example-left .example-title .example-line-bottom{
+	width:100%;
+	height:30px;
+	background:url(../images/white-bottom.png);
+	background-size: cover;
+	position:relative;
+	left:0px;
+	top:-32px;
+}
+.section4-example .example-right{
+	width:90%;
+	height:100%;
+	position: absolute;
+	right:0;
+	z-index: 999;
+}
+.section4-example .example-right .example-list{
+	width:100%;
+	height:auto;
+	float: right;
+	margin-top: 20px;
+}
+.section4-example .example-right .example-list li{
+	width:90%;
+	height:36px;
+	overflow: hidden;
+	margin-bottom:5px;
+}
+.section4-example .example-right .example-list li span{
+	display: block;
+	margin-top:9px;
+	float:right;
+}
+.section4-example .example-right .example-list li .list-word-1{
+	width:125px;
+	height:20px;
+	background: url(../images/list-1.png);
+	background-size: cover;
+	margin-left: 30px;
+	position: relative;
+	left:-120%;
+
+}
+.section4-example .example-right .example-list li .list-people-1{
+	width:0px;
+	height:0px;
+	background:url(../images/people-fa.png);
+	background-size: cover;
+	margin-top:0;
+}
+.section4-example .example-right .example-list li .list-word-2{
+	width:125px;
+	height:20px;
+	background: url(../images/list-2.png);
+	background-size: cover;
+	float: left;
+	position: relative;
+	right:-120%;
+
+}
+.section4-example .example-right .example-list li .list-people-2{
+	width:0px;
+	height:0px;
+	background:url(../images/people-zhong.png);
+	background-size: cover;
+	margin-top:0;
+	margin-left:50px;
+	float: left;
+}
+.section4-example .example-right .example-list li .list-word-3{
+	width:190px;
+	height:20px;
+	background: url(../images/list-3.png);
+	background-size: cover;
+	float:left;
+	margin-left:30px;
+	position: relative;
+	left:-120%;
+
+}
+.section4-example .example-right .example-list li .list-people-3{
+	width:0px;
+	height:0px;
+	background:url(../images/people-zhong.png);
+	background-size: cover;
+	margin-top:0;
+	float:left;
+}
+.section4-example .example-right .example-list li .list-word-4{
+	width:125px;
+	height:20px;
+	background: url(../images/list-4.png);
+	background-size: cover;
+	float: left;
+	position: relative;
+	right:-120%;
+
+}
+.section4-example .example-right .example-list li .list-people-4{
+	width:0px;
+	height:0px;
+	background:url(../images/people-mei.png);
+	background-size: cover;
+	margin-top:0;
+	margin-left:92px;
+	float: left;
+}
+.section4-example .example-right .example-list li .list-word-5{
+	width:125px;
+	height:20px;
+	background: url(../images/list-5.png);
+	background-size: cover;
+	margin-left: 30px;
+	position: relative;
+	left:-120%;
+
+}
+.section4-example .example-right .example-list li .list-people-5{
+	width:0px;
+	height:0px;
+	background:url(../images/people-ge.png);
+	background-size: cover;
+	margin-top:0;
+}
+.section4-example .example-right .example-list li .list-word-6{
+	width:125px;
+	height:20px;
+	background: url(../images/list-6.png);
+	background-size: cover;
+	margin-left:76px;
+	float: left;
+
+}
+/*第四屏 end*/
+/*第五屏 begin*/
+.section5{
+	background:url(../images/gray.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section5-title{
+	width:100%;
+	height:0.75rem;
+	margin-top:30px;
+}
+.section5-title .for-example{
+	width:125px;
+	height:100%;
+	position: relative;
+	margin-left:30px;
+}
+.section5-title .for-example .for-example-top{
+	width:100%;
+	height:35px;
+	background:url(../images/white-top.png);
+	background-size: cover;
+	position: relative;
+	right:-600px;
+}
+.section5-title .for-example .for-example-content{
+	width:100%;
+	height:45px;
+	background:url(../images/for-example.png);
+	background-size: cover;
+	position:relative;
+	bottom:18px;
+	display: none;
+
+}
+.section5-title .for-example .for-example-bottom{
+	width:100%;
+	height:35px;
+	background:url(../images/white-bottom.png);
+	background-size: cover;
+	position:relative;
+	bottom:36px;
+	left:-120%;
+}
+.section5-content{
+	width:100%;
+	height:46%;
+}
+.section5-content .section5-list{
+	height:100%;
+}
+.section5-content .section5-list li{
+	width:100%;
+	height:20%;
+	position: relative;
+}
+.section5-content .section5-list li span{
+	display: block;
+}
+.section5-list .section5-word-1{
+	width:152px;
+	height:22px;
+	background: url(../images/word-1.png);
+	background-size: cover;
+	position: absolute;
+	bottom:38%;
+	right:-120%;
+}
+.section5-list .section5-people-1{
+	width:0px;
+	height:0px;
+	background:url(../images/people-fa.png);
+	background-size: cover;
+	position: absolute;
+	right:8%;
+	bottom:20%;
+
+}
+.section5-list .section5-word-2{
+	width:152px;
+	height:22px;
+	background: url(../images/word-2.png);
+	background-size: cover;
+	position: absolute;
+	left:-120%;
+	bottom:20%;
+}
+.section5-list .section5-people-2{
+	width:0px;
+	height:0px;
+	background:url(../images/people-zhong.png);
+	background-size: cover;
+	position: absolute;
+	bottom:20%;
+	left:14%;
+
+}
+.section5-list .section5-word-3{
+	width:152px;
+	height:22px;
+	background: url(../images/word-3.png);
+	background-size: cover;
+	position: absolute;
+	bottom:38%;
+	right:-120%;
+}
+.section5-list .section5-people-3{
+	width:0px;
+	height:0px;
+	background:url(../images/people-han.png);
+	background-size: cover;
+	position: absolute;
+	right:30%;
+	bottom:33%;
+
+}
+.section5-list .section5-word-4{
+	width:152px;
+	height:22px;
+	background: url(../images/word-4.png);
+	background-size: cover;
+	position: absolute;
+	left:-120%;
+	bottom:20%;
+}
+.section5-list .section5-people-4{
+	width:0px;
+	height:0px;
+	background:url(../images/people-mei.png);
+	background-size: cover;
+	position: absolute;
+	bottom:20%;
+	left:7%;
+
+}
+.section5-list .section5-word-5{
+	width:152px;
+	height:22px;
+	background: url(../images/word-5.png);
+	background-size: cover;
+	position: absolute;
+	bottom:38%;
+	right:-120%;
+}
+.section5-list .section5-people-5{
+	width:0px;
+	height:0px;
+	background:url(../images/people-ge.png);
+	background-size: cover;
+	position: absolute;
+	right:46%;
+	bottom:33%;
+
+}
+.section5-bottom{
+	width:100%;
+	height:32%;
+}
+.section5-bottom .section5-trouble{
+	width:90%;
+	margin-left:10%;
+	height:100%;
+	position: relative;
+}
+.section5-bottom .section5-trouble .trouble-left{
+	width:0;
+	height:0;
+	background: url(../images/trouble.png);
+	background-size:100% 100%;
+	position: absolute;
+	top:7%;
+}
+.section5-bottom .section5-trouble .trouble-right{
+	width:60%;
+	height:130%;
+	background: url(../images/black-people.png);
+	background-size:100% 100%;
+	position: absolute;
+	top:-18%;
+	right:10%;
+	display: none;
+}
+/*第五屏 end*/
+/*第六屏 begin*/
+.section6{
+	background: url(../images/orange.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section6 .section6-top{
+	width:100%;
+	height:12%;
+	margin-top:0.4rem;
+}
+.section6 .section6-top .top-no{
+	width:28%;
+	display: block;
+	margin:auto;
+}
+.section6 .section6-title{
+	width:100%;
+	height:10%;
+}
+.section6 .section6-title span{
+	display: block;
+	text-align: center;
+	font-size: 0.16rem;
+	color:#c09622;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+.section6 .section6-title .problem{
+	position: relative;
+	left:-120%;
+}
+.section6 .section6-title .slove{
+	position: relative;
+	right:-120%;
+}
+.section6-light{
+	width:100%;
+	height:45%;
+	position: relative;
+}
+.section6-light .light-pic{
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index: 99999;
+	background:url(../images/light.png);
+	background-position: center center;
+	background-size:cover;
+	bottom:-1000;
+}
+.section6-light .light-pic .light-word{
+	font-size: 0.14rem;
+	color:#26635e;
+	line-height:20px;
+	text-align: center;
+	margin-top:15%;
+	letter-spacing: 2px;
+	display: none;
+}
+.green-people{
+	width:100%;
+	height:70%;
+	position: absolute;
+	bottom:0.04rem;
+	z-index: 999;
+}
+.green-people .green-people-pic{
+	width:100%;
+	height:100%;
+	background: url(../images/green-people.png);
+	background-position: center center;
+	background-size:cover;
+	position:relative;
+	bottom:-120%;
+}
+/*第六屏 end*/
+/*第七屏 begin*/
+.section7{
+	background:url(../images/blue.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section7 .section7-title{
+	width:100%;
+	height:25%;
+	margin-top:0.3rem;
+}
+.section7 .section7-title .title-key{
+	width:90%;
+	height:100%;
+	margin-left:10%;
+	position:relative;
+}
+.section7 .section7-title .title-key .key-yzx{
+	width:100%;
+	height:38%;
+	position: absolute;
+	background: url(../images/yzx.png);
+	background-size: cover;
+	background-position:50%;
+}
+.section7 .section7-title .title-key .key-top{
+	width:100%;
+	height:45%;
+	position:relative;
+	top:8px;
+	left:-25px;
+	display: none;
+	background: url(../images/key-top.png);
+	background-size:100% 100%;
+	background-position:50%;
+}
+.section7 .section7-title .title-key .key-content{
+	width:100%;
+	height:50%;
+	position:relative;
+	top:-25%;
+	left:-6%;
+	background: url(../images/no-key.png);
+	background-size:100% 100%;
+	background-position:50%;
+	display: none;
+}
+.section7 .section7-title .title-key .key-bottom{
+	width:100%;
+	height:45%;
+	position:relative;
+	top:-58%;
+	left:-120%;
+	background: url(../images/key-bottom.png);
+	background-size:100% 100%;
+	background-position:50%;
+}
+.section7-car{
+	width:100%;
+	height:56%;
+}
+.section7-car .car-content{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section7-car .car-content .yzx-app{
+	width:28%;
+	height:auto;
+	position:absolute; 
+	left:20%;
+	bottom: -120%;
+}
+.section7-car .car-content .yzx-app img{
+	display: block;
+	width:100%;
+}
+.section7-car .car-content .orange-car{
+	width:100%;
+	height: 64%;
+	position: absolute;
+	bottom:0;
+	right:-120%;
+}
+.section7-car .car-content .orange-car img{
+	width:100%;
+}
+.section7-car .car-content .car-dialog{
+	width:0;
+	position: absolute;
+	right:10%;
+	top:19%;
+}
+.section7-car .car-content .car-dialog img{
+	display: block;
+	width:100%;
+
+}
+/*第七屏 end*/
+/*第八屏 begin*/
+.section8{
+	background: url(../images/start.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section8-title{
+	width:100%;
+	height:12%;
+	margin-top:0.2rem;
+}
+.section8-title .title-server{
+	width:100%;
+	height:100%;
+	background: url(../images/heart-server.png);
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.section8-start{
+	width:100%;
+	height:44%;
+	position: relative;
+}
+.section8-start .start-pic{
+	width:0;
+	height: 0;
+	margin:auto;
+	position: relative;
+}
+.section8-start .start-pic img{
+	display: block;
+	width:100%;
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+
+}
+.section8-bottom{
+	width:100%;
+	height:33%;
+	position: absolute;
+	bottom:0;
+}
+.section8-bottom .start-bottom{
+	width:100%;
+	height: 100%;
+	overflow: hidden;
+}
+.section8-bottom .start-bottom .bottom-hand{
+	width:50%;
+	height: 100%;
+	position: relative;
+	float: left;
+
+}
+.section8-bottom .start-bottom .bottom-hand img{
+	width:100%;
+	display: block;
+	position: absolute;
+	bottom:-120%;
+}
+.section8-bottom .start-bottom .bottom-control{
+	width:48%;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.section8-bottom .start-bottom .bottom-control .yun{
+	width:100%;
+	height:17%;
+	background: url(../images/yun.png);
+	background-size: 100% 100%;
+	position:relative;
+	right:5%;
+	display: none;
+}
+.section8-bottom .start-bottom .bottom-control .control-top{
+	width:100%;
+	height:16%;
+	background: url(../images/white-top.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-6%;
+	right:-120%;
+}
+.section8-bottom .start-bottom .bottom-control .control-start{
+	width:100%;
+	height:21%;
+	background: url(../images/control-start.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-14%;
+	right:0%;
+	display: none;
+}
+.section8-bottom .start-bottom .bottom-control .control-bottom{
+	width:100%;
+	height:16%;
+	background: url(../images/white-bottom.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-18%;
+	right:-120%;
+}
+.section8-bottom .start-bottom .bottom-control .control-word{
+	width:0;
+	height:0;
+	background: url(../images/far.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-24%;
+	right:5%;
+}
+/*第八屏 end*/
+/*第九屏 begin*/
+.section9{
+	background:url(../images/deep-grey.jpg);
+	background-size: cover;
+	overflow:hidden;
+}
+.section9-title{
+	width:100%;
+	height:23%;
+	margin-top:0.4rem;
+}
+.section9-title .title-lock{
+	width:80%;
+	height:100%;
+}
+.section9-title .title-lock .lock-yzx{
+	width:100%;
+	height:30%;
+	background: url(../images/yzx.png);
+	background-size:100% 100%;
+	position:relative;
+	left:-5%;
+	top:-120%;
+}
+.section9-title .title-lock .lock-top{
+	width:100%;
+	height:44%;
+	background: url(../images/key-bottom.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-24%;
+	left:-120%;
+}
+.section9-title .title-lock .lock-content{
+	width:100%;
+	height:50%;
+	background: url(../images/lock.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-50%;
+	left:2%;
+	display: none;
+}
+.section9-title .title-lock .lock-bottom{
+	width:100%;
+	height:44%;
+	background: url(../images/key-top.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-82%;
+	left:-120%;
+}
+.section9-middle{
+	width:100%;
+	height:38%;
+}
+.section9-middle .lock-pic{
+	width:80%;
+	height:100%;
+	margin:auto;
+}
+.section9-middle .lock-pic img{
+	display: block;
+	width:0;
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.section9-bottom{
+	width:100%;
+	height:30%;
+	overflow: hidden;
+	position: absolute;
+	bottom:0;
+}
+.section9-bottom .section9-safe{
+	width:50%;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.section9-bottom .section9-safe .section9-hand{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section9-bottom .section9-safe .section9-hand img{
+	display: block;
+	width:100%;
+	position: absolute;
+	bottom:-120%;
+}
+.section9-bottom .section9-word{
+	width:60%;
+	height:100%;
+	float: left;
+	position: absolute;
+	right:0;
+	z-index: 9999;
+}
+.section9-bottom .section9-word .section9-word-content{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section9-bottom .section9-word .section9-word-content .section9-attention{
+	width:0%;
+	height:0%;
+	background: url(../images/attention.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:-3%;
+	top:35%;
+}
+.section9-bottom .section9-word .section9-word-content .section9-line{
+	width:100%;
+	height:26%;
+	background: url(../images/safe-line.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:-120%;
+	top:42%;
+}
+/*第九屏 end*/
+/*第十屏 begin*/
+.section10{
+	background:url(../images/sky.jpg);
+	background-size: cover;
+	overflow:hidden;
+}
+.section10-title{
+	width:100%;
+	height:23%;
+	margin-top:0.4rem;
+}
+.section10-title .title-lock-10{
+	width:80%;
+	height:100%;
+}
+.section10-title .title-lock-10 .lock-yzx-10{
+	width:100%;
+	height:30%;
+	background: url(../images/yzx.png);
+	background-size:100% 100%;
+	position:relative;
+	left:-4%;
+	top:-120%;
+}
+.section10-title .title-lock-10 .lock-top-10{
+	width:100%;
+	height:44%;
+	background: url(../images/key-bottom.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-21%;
+	left:-120%;
+}
+.section10-title .title-lock-10 .lock-content-10{
+	width:100%;
+	height:50%;
+	background: url(../images/window.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-50%;
+	left:4%;
+	display: none;
+}
+.section10-title .title-lock-10 .lock-bottom-10{
+	width:100%;
+	height:44%;
+	background: url(../images/key-top.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-87%;
+	left:-120%;
+}
+.section10-middle{
+	width:100%;
+	height:38%;
+}
+.section10-middle .lock-pic-10{
+	width:80%;
+	height:100%;
+	margin:auto;
+}
+.section10-middle .lock-pic-10 img{
+	display: block;
+	width:0;
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.section10-bottom{
+	width:100%;
+	height:30%;
+	overflow: hidden;
+	position: absolute;
+	bottom:0;
+}
+.section10-bottom .section10-safe{
+	width:50%;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.section10-bottom .section10-safe .section10-hand{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section10-bottom .section10-safe .section10-hand img{
+	display: block;
+	width:100%;
+	position: absolute;
+	bottom:-120%;
+}
+.section10-bottom .section10-word{
+	width:60%;
+	height:100%;
+	float: left;
+	position: absolute;
+	right:0;
+	z-index: 9999;
+}
+.section10-bottom .section10-word .section10-word-content{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section10-bottom .section10-word .section10-word-content .section10-attention{
+	width:0%;
+	height:0%;
+	background: url(../images/close-window.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:-3%;
+	top:35%;
+}
+.section10-bottom .section10-word .section10-word-content .section10-line{
+	width:100%;
+	height:26%;
+	background: url(../images/safe-line.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:-120%;
+	top:42%;
+}
+/*第十屏 end*/
+/*第十一屏 begin*/
+.section11{
+	background:url(../images/air-condition.jpg);
+	background-size: cover;
+	overflow:hidden;
+}
+.section11-title{
+	width:100%;
+	height:23%;
+	margin-top:0.4rem;
+}
+.section11-title .title-lock-11{
+	width:80%;
+	height:100%;
+}
+.section11-title .title-lock-11 .lock-yzx-11{
+	width:100%;
+	height:30%;
+	background: url(../images/yzx.png);
+	background-size:100% 100%;
+	position:relative;
+	left:-10%;
+	top:-120%;
+}
+.section11-title .title-lock-11 .lock-top-11{
+	width:100%;
+	height:44%;
+	background: url(../images/key-bottom.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-20%;
+	left:-120%;
+}
+.section11-title .title-lock-11 .lock-content-11{
+	width:100%;
+	height:50%;
+	background: url(../images/air.png);
+	background-size: 100% 100%;
+	position: relative;
+	top:-50%;
+	left:0%;
+	display: none;
+}
+.section11-title .title-lock-11 .lock-bottom-11{
+	width:100%;
+	height:44%;
+	background: url(../images/key-top.png);
+	background-size:100% 100%;
+	position: relative;
+	top:-88%;
+	left:-120%;
+}
+.section11-middle{
+	width:100%;
+	height:38%;
+}
+.section11-middle .lock-pic-11{
+	width:80%;
+	height:100%;
+	margin:auto;
+}
+.section11-middle .lock-pic-11 img{
+	display: block;
+	width:0;
+	position: absolute;
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+}
+.section11-bottom{
+	width:100%;
+	height:30%;
+	overflow: hidden;
+	position: absolute;
+	bottom:0;
+}
+.section11-bottom .section11-safe{
+	width:50%;
+	height:100%;
+	position: relative;
+	float: left;
+}
+.section11-bottom .section11-safe .section11-hand{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section11-bottom .section11-safe .section11-hand img{
+	display: block;
+	width:100%;
+	position: absolute;
+	bottom:-120%;
+}
+.section11-bottom .section11-word{
+	width:60%;
+	height:100%;
+	float: left;
+	position: absolute;
+	right:0;
+	z-index: 9999;
+}
+.section11-bottom .section11-word .section11-word-content{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section11-bottom .section11-word .section11-word-content .section11-attention{
+	width:0%;
+	height:0%;
+	background: url(../images/air-word.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:-3%;
+	top:35%;
+}
+.section11-bottom .section11-word .section11-word-content .section11-line{
+	width:100%;
+	height:26%;
+	background: url(../images/safe-line.png);
+	background-size:100% 100%;
+	position: absolute;
+	right:-120%;
+	top:42%;
+}
+/*第十一屏 end*/
+/*第十二屏 begin*/
+.section12{
+	background:url(../images/electric.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section12-title{
+	width:100%;
+	height:20%;
+	margin-top: 0.3rem;
+}
+.section12-title .title-electric{
+	width:50%;
+	height:100%;
+	margin:auto;
+}
+.section12-title .title-electric .electric-yzx{
+	width:100%;
+	height:34%;
+	background:url(../images/yun.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-16%;
+	top:-120%;
+}
+.section12-title .title-electric .electric-top{
+	width:100%;
+	height:31%;
+	background:url(../images/white-top.png);
+	background-size:100% 100%;
+	position: relative;
+	right:-150%;
+	top:-10%;
+}
+.section12-title .title-electric .electric-word{
+	width:100%;
+	height:46%;
+	background:url(../images/product.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-5%;
+	top:-28%;
+	display: none;
+}
+.section12-title .title-electric .electric-bottom{
+	width:100%;
+	height:31%;
+	background:url(../images/white-bottom.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-150%;
+	top:-43%;
+}
+.section12-title .title-electric .electric-cut{
+	width:0%;
+	height:0%;
+	background:url(../images/cut-electric.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-2%;
+	top:-65%;
+}
+.section12-content{
+	width:100%;
+	height:54%;
+	margin-top:0.1rem;
+}
+.section12-content .section12-thief{
+	width:95%;
+	height:100%;
+	margin-left:5%;
+	position: relative;
+}
+.section12-content .section12-thief .thief-key{
+	width:60%;
+	height:100%;
+	position: absolute;
+	left:0;
+}
+.section12-content .section12-thief .thief-key .thief{
+	width:70%;
+	position: absolute;
+	bottom:20%;
+	z-index: 999;
+	display: none;
+}
+.section12-content .section12-thief .thief-key .thief img{
+	display: block;
+	width:100%;
+}
+
+.section12-content .section12-thief .thief-key .thief-word{
+	width:0%;
+	position:relative;
+	top:8%;
+	right:-32%;
+}
+.section12-content .section12-thief .thief-key .thief-word img{
+	display: block;
+	width:100%;
+}
+.section12-content .section12-thief .thief-car{
+	width:100%;
+	height:100%;
+	position:absolute;
+	right:-120%;
+	z-index: 9999;
+}
+.section12-content .section12-thief .thief-car img{
+	display: block;
+	width:100%;
+	position: absolute;
+	bottom:0;
+}
+.section12-bottom{
+	width:100%;
+	height:10%;
+	margin-top:0.1rem;
+}
+.section12-bottom .section12-explain{
+	width:80%;
+	height:100%;
+	margin:auto;
+	color:#fff;
+	font-size: 0.12rem;
+	letter-spacing: 1px;
+	display: none;
+
+}
+/*第十二屏 end*/
+/*第十三屏 begin*/
+.section13{
+	background:url(../images/port.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section13-title{
+	width:100%;
+	height:20%;
+	margin-top: 0.3rem;
+}
+.section13-title .title-electric-13{
+	width:40%;
+	height:100%;
+	margin:auto;
+}
+.section13-title .title-electric-13 .electric-yzx-13{
+	width:100%;
+	height:34%;
+	background:url(../images/port-yzx.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-16%;
+	top:-120%;
+}
+.section13-title .title-electric-13 .electric-top-13{
+	width:100%;
+	height:31%;
+	background:url(../images/port-top.png);
+	background-size:100% 100%;
+	position: relative;
+	right:-120%;
+	top:-16%;
+}
+.section13-title .title-electric-13 .electric-word-13{
+	width:100%;
+	height:46%;
+	background:url(../images/port-an.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-5%;
+	top:-28%;
+	display: none;
+}
+.section13-title .title-electric-13 .electric-bottom-13{
+	width:100%;
+	height:31%;
+	background:url(../images/port-bottom.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-160%;
+	top:-41%;
+}
+.section13-title .title-electric-13 .electric-cut-13{
+	width:0%;
+	height:0%;
+	background:url(../images/port-word.png);
+	background-size:100% 100%;
+	position: relative;
+	left:-2%;
+	top:-64%;
+}
+/*****内容*****/
+.section13-content{
+	width:100%;
+	height:44%;
+	margin-top:0.1rem;
+}
+.section13-content .section13-load{
+	width:100%;
+	margin:auto;
+}
+.section13-content .section13-load img{
+	display: block;
+	width:0;
+}
+.section13-bottom{
+	width:100%;
+	height:23%;
+	position: relative;
+}
+.section13-bottom .port-word{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.section13-bottom .port-word .port-word-1{
+	width:100%;
+	height:auto;
+	display: none;
+}
+.section13-bottom .port-word .port-word-1 img{
+	display: block;
+	width:100%;
+}
+.section13-bottom .port-word .port-word-2{
+	width:100%;
+	height:auto;
+
+}
+.section13-bottom .port-word .port-word-2 img{
+	display: block;
+	width:0;
+}
+.section13-bottom .port-word .port-line{
+	width:100%;
+	height:auto;
+	display: none;
+
+}
+.section13-bottom .port-word .port-line img{
+	display: block;
+	width:100%;
+	position:absolute;
+	top:32%;
+}
+/*第十三屏 end*/
+/*第十四屏 begin*/
+.section14{
+	background:url(../images/light-blue.jpg);
+	background-size:cover;
+	overflow: hidden;
+}
+.section14-title{
+	width:100%;
+	height:16%;
+	margin-top:0.3rem;
+}
+.section14-title .section14-money{
+	width:60%;
+	height:100%;
+	position: relative;
+}
+.section14-title .section14-money .money-yzx{
+	width:100%;
+	height:50%;
+	background: url(../images/yzx.png);
+	background-size: cover;
+	position: relative;
+	left:-10%;
+	top:0%;
+	display: none;
+}
+.section14-title .section14-money .money-top{
+	width:100%;
+	height:50%;
+	background: url(../images/money-top.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-34%;
+}
+.section14-title .section14-money .money-content{
+	width:120%;
+	height:70%;
+	background: url(../images/yunquan2.png);
+	background-size:cover;
+	position: relative;
+	left:3%;
+	top:-60%;
+}
+.section14-title .section14-money .money-bottom{
+	width:100%;
+	height:50%;
+	background: url(../images/money-bottom.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-92%;
+}
+.section14-content{
+	width:100%;
+	height:60%;
+}
+.section14-content .coin-content{
+	width:90%;
+	height:100%;
+	margin:auto;
+	position: relative;
+
+}
+.section14-content .coin-content .coin-word{
+	width:100%;
+	position: relative;
+	top:2%;
+	display: none;
+}
+@-webkit-keyframes circle{
+	0%{transform:rotate(0deg);}
+	100%{transform:rotate(360deg);}
+}
+.section14-content .coin-content .coin-word img{
+	width:100%;
+	display: block;
+}
+.section14-content .coin-content .coin-cycle{
+	width:100%;
+	-webkit-animation:circle 1s infinite linear;/*匀速 循环*/
+	display: none;
+}
+.section14-content .coin-content .coin-cycle img{
+	width:100%;
+	display: block;
+}
+.section14-content .coin-content .coin-app{
+	width:100%;
+	position: relative;
+	top:300%;
+}
+.section14-content .coin-content .coin-app img{
+	width:100%;
+	display: block;
+}
+.section14-content .coin-content .gold-coin{
+	width:0%;
+	position: relative;
+	top:-52%;
+	left:-11%;
+}
+.section14-content .coin-content .gold-coin img{
+	width:100%;
+	display: block;
+}
+.section14-content .coin-content .yellow-people{
+	width:60%;
+	position:absolute;
+	bottom:14%;
+	right:-150%;
+	z-index: 999;
+}
+.section14-content .coin-content .yellow-people img{
+	width:100%;
+	display: block;
+}
+.section14-content .coin-content .gold-juan{
+	width:100%;
+	position:absolute;
+	top:22%;
+	right:0%;
+	display: none;
+}
+.section14-content .coin-content .gold-juan img{
+	width:100%;
+	display: block;
+}
+.section14-bottom{
+	width:100%;
+	height:9%;
+}
+.section14-bottom  .bottom-cash{
+	width:100%;
+	line-height:20px;
+	font-size: 0.2rem;
+	text-align: center;
+	color:#0093b4;
+	letter-spacing: 1px;
+}
+/*第十四屏 end*/
+/*第十五屏 begin*/
+.section15{
+	background:url(../images/house.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section15-title{
+	width:100%;
+	height:16%;
+	margin-top:0.3rem;
+}
+.section15-title .section15-money{
+	width:60%;
+	height:100%;
+	position: relative;
+}
+.section15-title .section15-money .money-yzx-15{
+	width:100%;
+	height:50%;
+	background: url(../images/yzx.png);
+	background-size: cover;
+	position: relative;
+	left:-10%;
+	top:0%;
+	display: none;
+}
+.section15-title .section15-money .money-top-15{
+	width:100%;
+	height:50%;
+	background: url(../images/money-top.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-34%;
+}
+.section15-title .section15-money .money-content-15{
+	width:120%;
+	height:70%;
+	background: url(../images/select.png);
+	background-size:cover;
+	position: relative;
+	left:3%;
+	top:-60%;
+}
+.section15-title .section15-money .money-bottom-15{
+	width:100%;
+	height:50%;
+	background: url(../images/money-bottom.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-92%;
+}
+.trafic{
+	width:100%;
+	height:40%;
+}
+.trafic .trafic-content{
+	width:90%;
+	height:100%;
+	margin-left:10%;
+	position: relative;
+}
+.trafic .trafic-content .trafic-word{
+	width:60%;
+	height:100%;
+	position: absolute;
+	left:0;
+	display: none;
+}
+.trafic .trafic-content .trafic-word img{
+	width:100%;
+	display: block;
+}
+.trafic .trafic-content .trafic-police{
+	width:0%;
+	height:0%;
+	position: absolute;
+	right:0;
+}
+.trafic .trafic-content .trafic-police img{
+	width:100%;
+	display: block;
+}
+.section15-bottom{
+	width:100%;
+	height:33%;
+	margin-top:0.1rem;
+}
+.section15-bottom .section15-pic{
+	width:100%;
+	position: relative;
+	left:-120%;
+}
+.section15-bottom .section15-pic img{
+	width:100%;
+	display: block;
+}
+/*第十五屏 end*/
+/*第十六屏 begin*/
+.section16{
+	background: url(../images/guiji.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section16-title{
+	width:100%;
+	height:16%;
+	margin-top:0.3rem;
+}
+.section16-title .section16-money{
+	width:60%;
+	height:100%;
+	position: relative;
+}
+.section16-title .section16-money .money-yzx-16{
+	width:100%;
+	height:50%;
+	background: url(../images/blue-yzx.png);
+	background-size: cover;
+	position: relative;
+	left:0%;
+	top:1%;
+	display: none;
+}
+.section16-title .section16-money .money-top-16{
+	width:100%;
+	height:50%;
+	background: url(../images/blue-top.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-40%;
+}
+.section16-title .section16-money .money-content-16{
+	width:120%;
+	height:70%;
+	background: url(../images/path-track.png);
+	background-size:cover;
+	position: relative;
+	left:3%;
+	top:-64%;
+}
+.section16-title .section16-money .money-bottom-16{
+	width:100%;
+	height:50%;
+	background: url(../images/blue-bottom.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-92%;
+}
+.section16-mention{
+	width:100%;
+	height:17%;
+}
+.section16-mention .mention-word{
+	width:100%;
+}
+.section16-mention .mention-word img{
+	width:100%;
+	display: block;
+}
+.section16-path{
+	width:100%;
+	height:46%;
+	margin-top:0.2rem;
+}
+.section16-path .path-content{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.section16-path .path-content .path-location{
+	width:40px;
+	height:50px;
+	background: url(../images/location.png);
+	background-size: cover;
+	position: absolute;
+	left:-120%;
+	bottom:-4%;
+}
+.section16-path .path-content .path-car{
+	width:0%;
+	position: absolute;
+	right:8%;
+	bottom:9%;
+}
+
+.section16-path .path-content .path-car img{
+	display: block;
+	width:100%;
+}
+.section16-path .path-content .path{
+	width:50%;
+	height:60%;
+	bottom:25%;
+	position: absolute;
+	right:38%;
+	z-index: 9999;
+	display: none;
+}
+.section16-path .path-content .path img{
+	display: block;
+	width:100%;
+}
+/*第十六屏 end*/
+/*第十七屏 begin*/
+.section17{
+	background: url(../images/happy-pk.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section17-title{
+	width:100%;
+	height:16%;
+	margin-top:0.3rem;
+}
+.section17-title .section17-money{
+	width:60%;
+	height:100%;
+	position: relative;
+}
+.section17-title .section17-money .money-yzx-17{
+	width:100%;
+	height:50%;
+	background: url(../images/yzx.png);
+	background-size: cover;
+	position: relative;
+	left:-10%;
+	top:0%;
+	display: none;
+}
+.section17-title .section17-money .money-top-17{
+	width:100%;
+	height:50%;
+	background: url(../images/money-top.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-34%;
+}
+.section17-title .section17-money .money-content-17{
+	width:120%;
+	height:70%;
+	background: url(../images/pk-word.png);
+	background-size:cover;
+	position: relative;
+	left:3%;
+	top:-60%;
+}
+.section17-title .section17-money .money-bottom-17{
+	width:100%;
+	height:50%;
+	background: url(../images/money-bottom.png);
+	background-size:cover;
+	position: relative;
+	left:-150%;
+	top:-92%;
+}
+.section17-speed{
+	width:100%;
+	height:60%;
+}
+.section17-speed .speed-content{
+	width:100%;
+	height:100%;
+	position: relative;
+}
+.section17-speed .speed-content .speed-car{
+	width:100%;
+	height:40%;
+	position: absolute;
+	bottom:20%;
+	display: none;
+}
+.section17-speed .speed-content .speed-car img{
+	width:100%;
+	display: block;
+}
+.section17-speed .speed-content .speed-flag{
+	width:100%;
+	height:40%;
+	position: absolute;
+	bottom:10%;
+}
+.section17-speed .speed-content .speed-flag img{
+	width:100%;
+	display: block;
+}
+.section17-speed .speed-content .clock{
+	width:80px;
+	height:80px;
+	position: absolute;
+	left:40%;
+	top:0;
+	margin:auto;
+}
+.section17-speed .speed-content .clock img:nth-of-type(1){
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 99999;
+	display: block;
+	width:100%;
+}
+.section17-speed .speed-content .clock img:nth-of-type(2){
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 9999;
+	display: block;
+	width:100%;
+}
+.section17-speed .speed-content .clock img:nth-of-type(3){
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 999;
+	display: block;
+	width:100%;
+}
+.section17-speed .speed-content .clock img:nth-of-type(4){
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 99;
+	display: block;
+	width:100%;
+}
+.section17-speed .speed-content .challenge{
+	width:0%;
+	position: absolute;
+	right:0;
+	top:-26%;
+}
+.section17-speed .speed-content .challenge img{
+	display: block;
+	width:100%;
+}
+/*第十七屏 end*/
+/*第十八屏 begin*/
+.section18{
+	background:url(../images/code.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+.section18-title{
+	width:100%;
+	height:4%;
+
+}
+.section18-title{
+	color:#fff;
+	font-size: 0.2rem;
+	line-height: 20px;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-top:0.7rem;
+}
+.section18-code{
+	width:100%;
+	height:35%;
+}
+.section18-code .code-pic{
+	width:100%;
+	margin-top:0.15rem;
+}
+.section18-code .code-pic img{
+	width:100%;
+	display: block;
+}
+.section18-code .code-pic p{
+	color:#000;
+	font-size: 0.14rem;
+	text-align: center;
+	line-height: 14px;
+}
+.yzx-word{
+	width:100%;
+	height:auto;
+	margin-top:0.15rem;
+}
+.yzx-word p{
+	color: #fff;
+	text-align: center;
+	font-size: 0.16rem;
+	letter-spacing: 1px;
+}
+/*第十八屏 end*/
