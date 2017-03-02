@@ -1,0 +1,71 @@
+body{
+  font-family: 'Microsoft YaHei!important';
+}
+.guide-lines{
+  width:100%;
+  height:auto;
+  background: #fbfbfb;
+  .guide-container{
+    ul{
+      li{
+        cursor: pointer;
+      }
+      h3{
+        font-size:20px;
+        font-weight:bold;
+        span{
+          width:5px;
+          height:10px;
+          background: url("../images/service/row-right.jpg");
+          background-size: 100% 100%;
+          float: right;
+          transition:all .5s linear;
+          cursor: pointer;
+        }
+        .hot{
+          transform:rotate(90deg);
+          transition:all .5s linear;
+        }
+      }
+      .answer{
+        display: none;
+        p{
+          font-size:16px;
+          line-height:24px;
+        }
+        .answer-pic{
+          width:100%;
+          img{
+            display: block;
+            margin:auto;
+          }
+        }
+      }
+      .show{
+        display: block;
+      }
+
+    }
+  }
+}
+@media (max-width:767px){
+  .guide-lines{
+    .guide-container{
+      ul{
+        h3{
+          font-size:14px;
+        }
+        .answer{
+          p{
+            font-size: 12px;
+          }
+          .answer-pic{
+            img{
+              width:100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

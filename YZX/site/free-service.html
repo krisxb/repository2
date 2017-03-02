@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>免费试装</title>
+    <link rel="stylesheet/less" href="less/free-service.less">
+    <link rel="stylesheet" href="css/free-service.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/head.js"></script>
+</head>
+<body>
+    <div class="active-box">
+    </div>
+    <div class="active-info">
+        <div class="container active-container">
+           <div class="active-content">
+               <ul class="try-info cf">
+                   <li>
+                       <span>姓名</span>
+                       <input type="text">
+                   </li>
+                   <li>
+                       <span class="active-tel">电话</span>
+                       <input type="text">
+                   </li>
+               </ul>
+               <ul class="try-info cf">
+                   <li>
+                       <span>车型</span>
+                       <input type="text">
+                   </li>
+                   <li>
+                       <span class="active-real">经营实体</span>
+                       <input type="text" class="manage">
+                   </li>
+               </ul>
+               <ul class="note cf">
+                   <li>
+                       <span>地址</span>
+                       <input type="text" class="address">
+                   </li>
+               </ul>
+               <ul class="note cf">
+                   <li>
+                       <span>备注</span>
+                       <input type="text" class="remarks">
+                   </li>
+               </ul>
+             <div class="active-submit">
+                 <button>立即提交</button>
+             </div>
+           </div>
+        </div>
+    </div>
+</body>
+<script src="js/foot.js"></script>
+<script>
+    $(".mobile-title").html("客服服务");
+    var list=$(".navbar-daohang li");
+    list.eq(0).removeClass('hot');
+    var list2=list.eq(2);
+    list2.addClass('hot');
+    list2.hover(function () {
+        $(this).addClass('hot');
+    })
+    var words=$('.navbar-daohang>ul>li>a');
+    words.eq(2).css({color:'#00b4ff'});
+</script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</html>

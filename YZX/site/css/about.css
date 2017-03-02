@@ -1,0 +1,436 @@
+cf {
+  zoom: 1;
+}
+.cf:after {
+  display: block;
+  content: 'clear';
+  clear: both;
+  line-height: 0;
+  visibility: hidden;
+}
+.center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.about-banner {
+  width: 100%;
+}
+.about-banner .about-pic {
+  width: 100%;
+}
+.about-banner .about-pic img {
+  width: 100%;
+  display: block;
+}
+.about-info {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+.about-info .about-container .about-event {
+  width: 100%;
+  margin-top: 60px;
+}
+.about-info .about-container .about-title {
+  width: 100%;
+  height: 40px;
+  border-bottom: 2px solid #E9E8E8;
+}
+.about-info .about-container .about-title h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+.about-info .about-container .about-title i {
+  width: 24px;
+  height: 28px;
+  background: url("../images/home/slant.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+}
+.about-info .about-container .about-title span {
+  color: #999;
+  font-size: 16px;
+  margin-left: -10px;
+}
+.about-info .about-container .culture-pic {
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+}
+.about-info .about-container .culture-pic li {
+  width: 18.5%;
+  position: relative;
+  float: left;
+  margin-right: 1.5%;
+}
+.about-info .about-container .culture-pic li img {
+  width: 100%;
+  display: block;
+}
+.about-info .about-container .culture-pic li .pic-bg {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.6;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #fff;
+  display: block;
+}
+.about-info .about-container .culture-pic li .pic-bg .pic-word {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.about-info .about-container .culture-pic li .pic-bg .pic-word h3 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0px;
+}
+.about-info .about-container .culture-pic li .pic-bg .pic-word p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.about-info .about-container .culture-pic li:nth-of-type(1) {
+  margin-left: 0.75%;
+}
+.about-info .about-container .culture-pic li:nth-of-type(5) {
+  margin-right: 0.75%;
+}
+.about-info .about-container .culture-pic li:hover .culture-slogan,
+.about-info .about-container .culture-pic li:hover .pic-bg {
+  transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transition: all .5s linear;
+}
+.about-info .about-container .about-honor {
+  margin-top: 60px;
+}
+.about-info .about-container .about-honor .honor {
+  width: 100%;
+  margin-top: 30px;
+}
+.about-info .about-container .about-honor .honor img {
+  display: block;
+  width: 100%;
+}
+.about-info .about-container .about-strategy {
+  margin-top: 60px;
+}
+.about-info .about-container .about-strategy .row {
+  margin-top: 30px;
+}
+.about-info .about-container .about-strategy .row .strategy-pic {
+  width: 100%;
+}
+.about-info .about-container .about-strategy .row .strategy-pic img {
+  width: 100%;
+  display: block;
+}
+.about-info .about-container .about-contact {
+  margin-top: 60px;
+}
+.about-info .about-container .about-contact .contact-content {
+  margin-top: 30px;
+  height: 250px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border: 2px solid #D7D7D6;
+}
+.about-info .about-container .about-contact .contact-content .padding-none {
+  padding: 0!important;
+}
+.about-info .about-container .about-contact .contact-content .contact-map {
+  width: 100%;
+  height: 250px;
+}
+.about-info .about-container .about-contact .contact-content .map-info {
+  width: 100%;
+  height: 250px;
+  background: url(../images/about/contact.jpg);
+  background-size: cover;
+}
+.about-info .about-container .about-contact .contact-content .map-info .info-content div {
+  width: 70%;
+  padding-top: 20px;
+  font-size: 20px;
+  color: #333;
+  margin-left: 61px;
+}
+@media (max-width: 767px) {
+  .about-info {
+    margin-top: 12px;
+  }
+  .about-info .about-container .about-event {
+    margin-top: 30px;
+  }
+  .about-info .about-container .about-title h2 {
+    font-size: 14px;
+    padding-bottom: 2px;
+  }
+  .about-info .about-container .about-title span {
+    font-size: 10px;
+  }
+  .about-info .about-container .about-title a {
+    width: 35px;
+    height: 20px;
+    background: url("../images/service/more-mobile.png");
+    background-size: 100% 100%;
+    background-position: center  center;
+    margin-top: 10px;
+  }
+  .about-info .about-container .about-title i {
+    position: relative;
+    top: 5px;
+  }
+  .about-info .about-container .about-contact {
+    margin-top: 30px;
+  }
+  .about-info .about-container .about-contact .contact-content {
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .about-info .about-container .about-contact .contact-content .contact-map {
+    height: 200px;
+  }
+  .about-info .about-container .about-contact .contact-content .map-info {
+    height: 180px;
+    margin-top: 10px;
+  }
+  .about-info .about-container .about-contact .contact-content .map-info .info-content {
+    width: 94%;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .about-info .about-container .about-contact .contact-content .map-info .info-content div {
+    width: 94%;
+    margin-left: 3%;
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .about-info .about-container .about-honor {
+    margin-top: 0px;
+  }
+  .about-info .about-container .about-strategy {
+    margin-top: 30px;
+  }
+  .about-info .about-container .about-strategy .row-2 {
+    margin-top: 0px;
+  }
+  .about-info .about-container .about-culture .culture-pic li .pic-bg {
+    display: block;
+  }
+  .about-info .about-container .about-culture .culture-pic li .pic-bg .pic-word h3 {
+    font-size: 16px;
+  }
+  .about-info .about-container .about-culture .culture-pic li .pic-bg .pic-word p {
+    font-size: 10px;
+    margin-top: 5px;
+  }
+  .about-info .about-container .about-culture .culture-pic li:nth-of-type(1),
+  .about-info .about-container .about-culture .culture-pic :nth-of-type(2) {
+    width: 49%;
+    margin-bottom: 8px;
+  }
+  .about-info .about-container .about-culture .culture-pic li:nth-of-type(1) {
+    margin-right: 2%;
+    margin-left: 0%;
+  }
+  .about-info .about-container .about-culture .culture-pic li:nth-of-type(2) {
+    margin-right: 0%;
+  }
+  .about-info .about-container .about-culture .culture-pic li:nth-of-type(3),
+  .about-info .about-container .about-culture .culture-pic :nth-of-type(4),
+  .about-info .about-container .about-culture .culture-pic :nth-of-type(5) {
+    width: 32%;
+    margin-right: 2%;
+  }
+  .about-info .about-container .about-culture .culture-pic li:nth-of-type(5) {
+    margin-right: 0%;
+  }
+  .event-box {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    position: relative;
+  }
+  .event-box .event-content {
+    width: 258px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto;
+  }
+  .event-box .box {
+    width: 320px;
+    height: 230px;
+    position: absolute;
+    margin: 0px auto;
+    z-index: 10;
+  }
+  .event-box .box a {
+    display: block;
+    float: left;
+    width: 86px;
+    height: 230px;
+  }
+  .event-box .box a img {
+    display: block;
+    width: 100%;
+  }
+  .event-box .event-car {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #3F3F3F;
+    position: absolute;
+    z-index: 999;
+    zoom: 1;
+    top: 36px;
+  }
+  .event-box .blue-car {
+    width: 56px;
+    height: 15px;
+    position: absolute;
+    right: 22px;
+    top: 59px;
+    z-index: 99999;
+    background: url(../images/event/blue-car-mobile.png);
+    background-size: 100% 100%;
+  }
+  .event-box .event-shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    zoom: 1;
+    left: 0;
+    top: 0;
+  }
+  .event-box .event-shadow .event-shadow-left {
+    width: 19%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .event-box .event-shadow .event-shadow-left img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .event-box .event-shadow .event-shadow-right {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+  }
+  .event-box .event-shadow .event-shadow-right img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 767px) {
+  .event-box {
+    width: 100%;
+    height: 370px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .event-box .event-content {
+    width: 1075px;
+    height: 339px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px auto;
+  }
+  .event-box .box {
+    width: 1290px;
+    height: 339px;
+    position: absolute;
+    margin: 0px auto;
+    z-index: 10;
+  }
+  .event-box .box a {
+    display: block;
+    float: left;
+    width: 215px;
+    height: 339px;
+  }
+  .event-box .event-car {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #3F3F3F;
+    position: absolute;
+    z-index: 999;
+    zoom: 1;
+    top: 152px;
+  }
+  .event-box .blue-car {
+    width: 148px;
+    height: 40px;
+    position: absolute;
+    right: 84px;
+    top: 152px;
+    z-index: 99999;
+    background: url(../images/event/blue-car.png);
+    background-size: 100% 100%;
+  }
+  .event-box .event-shadow {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 9999;
+    zoom: 1;
+    left: 0;
+    top: 0;
+  }
+  .event-box .event-shadow .event-shadow-left {
+    width: 12%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+  .event-box .event-shadow .event-shadow-left img {
+    display: block;
+    width: 100%;
+  }
+  .event-box .event-shadow .event-shadow-right {
+    width: 32%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+  }
+  .event-box .event-shadow .event-shadow-right img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

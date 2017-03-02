@@ -1,0 +1,233 @@
+/*公共样式 begin*/
+.cf {
+  zoom: 1;
+}
+.cf:after {
+  display: block;
+  content: 'clear';
+  clear: both;
+  line-height: 0;
+  visibility: hidden;
+}
+body {
+  font-family: "Microsoft YaHei", '微软雅黑', sans-serif !important;
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.pic {
+  display: block;
+  width: 100%;
+}
+.center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.show {
+  display: block;
+}
+@media (min-width: 767px) {
+  .mobile-footer {
+    display: none;
+  }
+  .yzx-footer {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .yzx-footer {
+    display: none;
+  }
+  .yzx-footer .container .footer-code {
+    display: none;
+  }
+  .mobile-footer {
+    display: block;
+  }
+}
+/*公共样式 end*/
+.yzx-footer {
+  width: 100%;
+  height: 90px;
+  background: #000;
+  position: relative;
+  margin-top: 60px;
+}
+.yzx-footer .container {
+  height: 100%;
+  position: relative;
+}
+.yzx-footer .container .yzx-footer-content {
+  width: 100%;
+  height: 50%;
+  font-size: 14px;
+  color: #666;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.yzx-footer .container .yzx-footer-content .footer-info {
+  width: 48%;
+  height: 100%;
+  float: left;
+}
+.yzx-footer .container .yzx-footer-content .footer-info .info-top {
+  width: 100%;
+  height: 50%;
+}
+.yzx-footer .container .yzx-footer-content .footer-info .info-top a {
+  display: block;
+  float: left;
+  margin-right: 28px;
+  color: #666;
+  text-decoration: none;
+}
+.yzx-footer .container .yzx-footer-content .footer-info .info-top a:hover,
+.yzx-footer .container .yzx-footer-content .footer-info .info-top a:active {
+  cursor: default;
+}
+.yzx-footer .container .yzx-footer-content .footer-info .info-bottom {
+  font-size: 12px;
+}
+.yzx-footer .container .yzx-footer-content .footer-icon {
+  width: 8%;
+  height: 100%;
+  float: right;
+  position: relative;
+}
+.yzx-footer .container .yzx-footer-content .footer-icon .icon-left,
+.yzx-footer .container .yzx-footer-content .footer-icon .icon-right {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.yzx-footer .container .yzx-footer-content .footer-icon .icon-left a,
+.yzx-footer .container .yzx-footer-content .footer-icon .icon-right a {
+  display: block;
+}
+.yzx-footer .container .yzx-footer-content .footer-icon .icon-left img,
+.yzx-footer .container .yzx-footer-content .footer-icon .icon-right img {
+  width: 100%;
+  display: block;
+}
+.yzx-footer .container .footer-code {
+  width: 8%;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  top: -70px;
+  display: none;
+}
+.yzx-footer .container .footer-code img {
+  width: 100%;
+  display: block;
+}
+.mobile-footer {
+  width: 100%;
+  height: auto;
+}
+.mobile-footer .mobile-footer-top {
+  width: 100%;
+}
+.mobile-footer .mobile-footer-top .code-attention {
+  width: 100%;
+  height: 36px;
+  background: #151515;
+}
+.mobile-footer .mobile-footer-top .code-attention span {
+  color: #fff;
+  font-size: 16px;
+  margin-left: 12px;
+  float: left;
+  line-height: 36px;
+}
+.mobile-footer .mobile-footer-top .code-attention i {
+  width: 36px;
+  height: 88%;
+  display: block;
+  float: right;
+  margin-right: 8px;
+  background: url("../images/home/arrow-left.png");
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.mobile-footer .mobile-footer-top .code-attention i.rotate {
+  -webkit-transform: rotate(90deg);
+  -webkit-transition: all 0.3s linear;
+  -moz-transform: rotate(90deg);
+  -moz-transition: all 0.3s linear;
+}
+.mobile-footer .attention-content {
+  width: 100%;
+  height: 142px;
+  position: relative;
+  background: #212121;
+  display: none;
+}
+.mobile-footer .attention-content .attention-pic {
+  width: 58%;
+  height: 64%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.mobile-footer .attention-content .attention-pic a {
+  width: 40%;
+  display: block;
+  float: left;
+}
+.mobile-footer .attention-content .attention-pic a img {
+  width: 100%;
+  display: block;
+}
+.mobile-footer .attention-content .attention-pic a span {
+  display: block;
+  font-size: 14px;
+  color: #fff;
+  line-height: 16px;
+  margin-top: 4px;
+  text-align: center;
+}
+.mobile-footer .mobile-footer-bottom {
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+.mobile-footer .mobile-footer-bottom .mobile-footer-list {
+  position: relative;
+  padding: 14px 0px 8px;
+}
+.mobile-footer .mobile-footer-bottom .mobile-footer-list .mobile-footer-category {
+  width: 80%;
+  height: 17px;
+  display: table;
+  margin: auto;
+}
+.mobile-footer .mobile-footer-bottom .mobile-footer-list .mobile-footer-category a {
+  color: #666;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 0 7px;
+  display: table-cell;
+}
+.mobile-footer .mobile-footer-bottom .mobile-footer-list p {
+  color: #666;
+  font-size: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<script src="js/rem.js"></script>
+	<script src="js/jquery-1.12.3.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/show.css">
+	<title>云掌行</title>
+</head>
+<body>
+	<!-- loading 页begin-->
+	<div id="loading">
+		<div class="yzx-logo">
+			<div class="yzx-word">
+				云掌行
+			</div>
+			
+		</div>
+		<a class="progress">
+				<div class='bar mint' data-percent='10' data-skill='HTML5'></div>
+			</a>
+	</div>
+	<!-- loading 页end-->
+	<div class="container hide" id="content">
+		<div class="section page1">
+			 <div class="word-fadeIn-1">
+				<div>生活在一个城市里时间久了</div>
+				<div>就会觉得厌倦</div>
+				<div>就会有一种想要逃离的冲动</div>
+			</div>
+			<div class="clock" style="display:block">
+				<canvas width=140 height=140 id="can"></canvas>
+			</div>
+		<!-- 音乐的部分 -->
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+		<!-- 箭头的部分 -->
+			<a class="arrow-area">
+				<i class="arrow"></i>
+			</a>
+		</div>
+		<!-- 第二屏 -->
+		<div class="section page2">
+			<div class="container-word" style="display:block">
+				<div>感觉身体被掏空<br>&nbsp;.<br>&nbsp;.<br>&nbsp;.</div>
+			</div>
+			<div class="clock" >
+				<canvas width=140 height=140 id="can" ></canvas>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<div class="arrow-area">
+				<i class="arrow"></i>
+			</div>
+		</div>
+		<!-- 第三屏 -->
+		<div class="section page3">
+			<div class="container-word">
+				<div>激情不灭<br>&nbsp;.<br>&nbsp;.<br>&nbsp;.</div>
+				<div>但曾经的那份热血依旧<br>&nbsp;,</div>
+				<div>虽然生活如此反复<br>&nbsp;,</div>
+			</div>
+			<div class="clock">
+				<canvas width=140 height=140 id="can"></canvas>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<div class="arrow-area">
+				<i class="arrow"></i>
+			</div>
+		</div>
+		<!-- 第四屏 -->
+		<div class="section page4">
+			<div class="word-fadeIn">
+				<div>那肆无忌惮的年纪<br>&nbsp;？</div>
+				<div>谁与你一起回味</div>
+				<div>累了<br>&nbsp;,烦了<br>&nbsp;,</div>
+			</div>
+			<div class="clock">
+				<canvas width=140 height=140 id="can"></canvas>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<div class="arrow-area">
+				<i class="arrow"></i>
+			</div>
+		</div>
+		<!-- 第五屏 -->
+		<div class="section page5">
+			<div class="container-word-left">
+				<div>永远都是热血激情的年纪<br>&nbsp;.<br>&nbsp;.<br>&nbsp;.</div>
+				<div>只要有你在一起</div>
+				<div>生活再累</div>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<div class="arrow-area">
+				<i class="arrow"></i>
+			</div>
+		</div>
+		<!-- 第六屏 -->
+		<div class="section page6">
+			<div class="word-fadeIn" style="width:1.2rem;right:44%">
+				<div>我才能感觉到兄弟的情谊<br>&nbsp;。</div>
+				<div>当我和你在一起时<br>&nbsp;，</div>
+				<div>我才能体会到自由的感觉<br>&nbsp;，</div>
+				<div>当我飙车到1<br>0<br>0迈时<br>&nbsp;，</div>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<div class="arrow-area">
+				<i class="arrow"></i>
+			</div>
+			<!-- 小车 begin-->
+			<div class="cycle">
+				<div class="car-small"></div>
+			</div>
+			
+			<!-- 小车 end-->
+		</div>
+		<!-- 第七屏 车和人移入-->
+		<div class="section page7">
+			<div class="word-fadeIn " style="right:45%">
+				<div>兄弟间的速度与激情</div>
+				<div>与你一起分享<br>&nbsp;.<br>&nbsp;.<br>&nbsp;.</div>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<div class="arrow-area">
+				<i class="arrow"></i>
+			</div>
+			<!-- 车 begin-->
+			<div class="car-big">
+			</div>
+			<!-- 车 end-->
+			<!-- 人begin -->
+			<div class="couple">
+			</div>
+			<!-- 人end -->
+		</div>
+		<!-- 第八屏 -->
+		<div class="section page8">
+			<div class="container-word-left " style="top:26%">
+				<div style="color:#4D4D4D;font-size:0.16rem"><br>
+				<br><br><br>┃<br>云掌行</div>
+				<div>让生活充满激情<br>&nbsp;.<br>&nbsp;.<br>&nbsp;.</div>
+				<div>让爱车尽在掌控</div>
+			</div>
+			<div class="music-wrap">
+				<i class="icon-music"></i>
+			</div>
+			<!-- 车 begin-->
+			<div class="car-big">
+			</div>
+			<!-- 车 end-->
+			<!-- 二维码 -->
+			<img src="images/code.jpg" alt="" class="code">
+		</div>
+	</div>
+	<!-- 音乐部分 -->
+	<audio id="audio" src="music/Agnes.mp3" loop="" preload="auto" autoplay="true"></audio>
+</body>
+<script src="js/show.js"></script>
+<!-- 进度条js -->
+ <script src="js/prefixfree.min.js"></script>
+<script>
+	var musicWrap=$(".music-wrap");
+	var iconMusic=$(".icon-music");
+	var music=$("audio")[0];
+	musicWrap.click(function(){
+		if(music.paused){
+			music.play();
+			iconMusic.toggleClass("off")
+		}else{
+			music.pause();
+			iconMusic.toggleClass("off")
+		}
+	})
+	$(".bar").addClass("active");
+	var data=10;
+	var dataPercent=setInterval(function(){
+		data+=10;
+		$(".bar").attr("data-percent",data);
+		if(data>=100){
+			clearInterval(dataPercent);
+			setTimeout(function(){
+				$("#loading").hide();
+				$("#content").removeClass("hide");
+			},600)
+		}
+	},500);
+		
+	
+</script>
+</html>

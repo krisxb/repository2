@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>动态列表</title>
+    <link rel="stylesheet/less" href="less/trends-list.less">
+    <link rel="stylesheet" href="css/trends-list.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/head.js"></script>
+</head>
+<body>
+    <div class="trends-content">
+        <div class="container trends-container">
+           <div class="row">
+               <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                   <a class="trends-box" href="event-detail.html">
+                       <img src="images/trends/trends-list.jpg" alt="">
+                       <h3>云掌行大事记</h3>
+                       <p>2015年10月：与乐视合作，提供汽车自助租赁解决方案。</p>
+                   </a>
+               </div>
+               <!--<div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                   <a class="trends-box">
+                       <img src="images/trends/trends-list.jpg" alt="">
+                       <h3>掌握以下技能不再‘吃罚单’</h3>
+                       <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                   <a class="trends-box">
+                       <img src="images/trends/trends-list.jpg" alt="">
+                       <h3>掌握以下技能不再‘吃罚单’</h3>
+                       <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                   </a>
+               </div>
+               <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                   <a class="trends-box">
+                       <img src="images/trends/trends-list.jpg" alt="">
+                       <h3>掌握以下技能不再‘吃罚单’</h3>
+                       <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                   </a>
+               </div>-->
+           </div>
+            <!--<div class="row">
+                <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                    <a class="trends-box">
+                        <img src="images/trends/trends-list.jpg" alt="">
+                        <h3>掌握以下技能不再‘吃罚单’</h3>
+                        <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                    <a class="trends-box">
+                        <img src="images/trends/trends-list.jpg" alt="">
+                        <h3>掌握以下技能不再‘吃罚单’</h3>
+                        <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                    <a class="trends-box">
+                        <img src="images/trends/trends-list.jpg" alt="">
+                        <h3>掌握以下技能不再‘吃罚单’</h3>
+                        <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-12 box-shadow">
+                    <a class="trends-box">
+                        <img src="images/trends/trends-list.jpg" alt="">
+                        <h3>掌握以下技能不再‘吃罚单’</h3>
+                        <p>交通违章处罚分为警告、罚款、吊扣驾驶证和拘留四种。相信所有开车上路的人或多或少都遇到过违章罚单，违章停车、超速、不按交通标志行车这几项可能是比较常见的违章行为。</p>
+                    </a>
+                </div>
+            </div>-->
+        </div>
+    </div>
+</body>
+<script src="js/foot.js"></script>
+<script>
+    $(".mobile-title").html("关于我们");
+    var list=$(".navbar-daohang li");
+    list.eq(0).removeClass('hot');
+    var list4=list.eq(4);
+    list4.addClass('hot');
+    list4.hover(function () {
+        $(this).addClass('hot');
+    })
+    var words=$('.navbar-daohang>ul>li>a');
+    words.eq(4).css({color:'#00b4ff'});
+</script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</html>

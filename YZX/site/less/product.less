@@ -1,0 +1,347 @@
+@productColor:#333;
+@titleColor:#999;
+@productfonsize:24px;
+.cf{zoom:1;}
+.cf:after{display:block; content:'clear'; clear:both; line-height:0; visibility:hidden;}
+.active{
+  background:#00b4ff!important;
+}
+.center{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+.border-radius-1{
+  -webkit-border-radius:4px;
+  -moz-border-radius: 4px;
+  -o-border-radius:4px;
+}
+.product-content{
+  width:100%;
+  .product-pic{
+    width:100%;
+  }
+}
+//产品介绍 begin
+.product-intro{
+  width:100%;
+  height:auto;
+  margin-top:60px;
+  .container{
+    .intro-title{
+      width:100%;
+      height:40px;
+      border-bottom:1px solid #999;
+      h2{
+        color:@productColor;
+        font-size: @productfonsize;
+        margin-top:0;
+        margin-bottom:0;
+        line-height:24px;
+        display:inline-block;
+        padding-bottom:8px;
+        font-weight:bold;
+        border-bottom:2px solid @productColor;
+      }
+      i{
+        width:24px;
+        height:28px;
+        background: url("../images/home/slant.png");
+        background-size:100% 100%;
+        background-position: center center;
+        display: inline-block;
+      }
+      span{
+        color:@titleColor;
+        font-size: 16px;
+        margin-left:-10px;
+      }
+    }
+    .intro-banner{
+      width:100%;
+      height:260px;
+      margin-top:30px;
+    }
+  }
+}
+//产品介绍 end
+//使用说明和意见反馈 begin
+.server-content{
+  width:100%;
+  height:auto;
+  margin-top:60px;
+  .server-container{
+     height:100%;
+    .server-title{
+      width:100%;
+      height:40px;
+      border-bottom:1px solid #999;
+      h2{
+        color:@productColor;
+        font-size: @productfonsize;
+        margin-top:0;
+        margin-bottom:0;
+        line-height:24px;
+        display:inline-block;
+        padding-bottom:8px;
+        font-weight:bold;
+        border-bottom:2px solid @productColor;
+      }
+      i{
+        width:24px;
+        height:28px;
+        background: url("../images/home/slant.png");
+        background-size:100% 100%;
+        background-position: center center;
+        display: inline-block;
+      }
+      span{
+        color:@titleColor;
+        font-size: 16px;
+        margin-left:-10px;
+      }
+      a{
+        width:17%;
+        height:100%;
+        display:inline-block;
+        float: right;
+        background: url("../images/home/detail.png");
+        background-size:100% 100%;
+      }
+    }
+    .server-introduct{
+      width:100%;
+      height:262px;
+      margin-top:30px;
+      background: url("../images/home/server.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      position:relative;
+      .instruction{
+        width:100%;
+        position:absolute;
+        bottom:26px;
+        a{
+          display: block;
+          text-decoration: none;
+          font-size: 22px;
+          color:#fff;
+          text-align: center;
+        }
+      }
+    }
+    .server-advice{
+      width:100%;
+      height:262px;
+      margin-top:30px;
+      background: url("../images/home/advice.jpg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      position:relative;
+      .advice-content{
+        width:360px;
+        height:220px;
+        .center;
+        li{
+          width:360px;
+          height:auto;
+          margin-top:3px;
+          span{
+            font-size:16px;
+            color:#f5f5f5;
+          }
+          input{
+            width:300px;
+            height:30px;
+            background-color:transparent;
+            border-radius:4px;
+            color:#fff;
+            border-color:#f5f5f5;
+            border-width:1px;
+          }
+          input:focus{
+            outline:none;
+          }
+          input::-ms-clear{
+            display: none;
+          }
+          .submit{
+             width:300px;
+            height:40px;
+            text-align: center;
+            font-size: 18px;
+            color:#333;
+            background: #C4C7C8;
+            opacity: 0.7;
+            .border-radius-1;
+            border:0;
+            margin-top:6px;
+            margin-left:53px;
+          }
+        }
+        p{
+          width:100%;
+          height:14px;
+          margin:4px 0px;
+          text-align:left;
+          text-indent:50px;
+          line-height:14px;
+          color:#00b4ff;
+        }
+      }
+    }
+  }
+}
+//使用说明和意见反馈 end
+@media (min-width:767px){
+  .container{
+    padding:0px !important;
+  }
+  .btnMode{
+    display: block;
+  }
+  .featured{
+    display: none;
+  }
+  .server-content{
+    .server-container{
+      .server-advice{
+        .advice-content{
+          li{
+            .remark{
+              height:80px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width:767px){
+  .carousel-indicators{
+    bottom:2px!important;
+  }
+  .product-intro{
+    .container{
+      .intro-banner{
+        height:auto;
+        margin-top:0px;
+      }
+    }
+  }
+  .btnMode{
+    display: none;
+  }
+  .featured{
+    display:block;
+  }
+  .server-content{
+      margin-top:30px;
+    .server-container{
+      .server-title{
+        h2{
+          font-size:14px;
+          padding-bottom:2px;
+        }
+        span{
+          font-size:10px;
+        }
+        a{
+          width:35px;
+          height:20px;
+          background: url("../images/service/more-mobile.png");
+          background-size:100% 100%;
+          background-position: center  center;
+          margin-top:10px;
+        }
+        i{
+          position:relative;
+          top:5px;
+        }
+      }
+      .server-advice{
+        height:170px;
+        margin-top:10px;
+        background-size:100% 100%;
+        .advice-content{
+          width:226px;
+          height:160px;
+          margin:auto;
+          p{
+            height:10px;
+            margin:2px 0px;
+            font-size: 10px;
+          }
+          li{
+            width:100%;
+            input{
+              width:181px;
+              height:19px;
+            }
+            span{
+              font-size: 12px;
+            }
+            .submit{
+              width:181px;
+              height:19px;
+              margin-left:40px;
+            }
+            .remark{
+              height:49px;
+            }
+            .submit{
+              font-size: 13px;
+            }
+          }
+          .server-name{
+            margin-top:8px;
+          }
+        }
+      }
+      .server-introduct{
+        height:158px;
+        background-size: 100% 100%;
+        margin-top:10px;
+        .instruction{
+          a{
+            font-size:14px;
+          }
+        }
+      }
+
+      .server-right{
+        margin-top:30px;
+        margin-bottom:10px;
+      }
+    }
+  }
+  .product-intro{
+    margin-top:12px;
+    .container{
+      .intro-title{
+        h2{
+          font-size:14px;
+          padding-bottom:2px;
+        }
+        span{
+          font-size:10px;
+        }
+        a{
+          width:35px;
+          height:20px;
+          background: url("../images/service/more-mobile.png");
+          background-size:100% 100%;
+          background-position: center  center;
+          margin-top:10px;
+        }
+        i{
+          position: relative;
+          top:5px;
+        }
+      }
+    }
+  }
+}

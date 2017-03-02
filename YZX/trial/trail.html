@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>轨迹回放</title>
+     <link rel="stylesheet" href="http://cache.amap.com/lbs/static/main1119.css"/>
+    <script src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值"></script>
+    <script type="text/javascript" src="http://cache.amap.com/lbs/static/addToolbar.js"></script>
+</head>
+<style>
+	#container{
+		width:100%;
+		height:88%;
+	}
+	.yzx-box{
+		width:100%;
+		height:12%;
+		position: absolute;
+		bottom:0;
+		z-index: 99999;
+		background: #0fa4dc;
+	}
+	.yzx-box .yzx-inner{
+		width:92%;
+		height:100%;
+		margin:0 auto;
+		overflow: hidden;
+	}
+	.yzx-inner .yzx-logo{
+		width:26%;
+		height:70%;
+		background-image: url(images/logo6.png);
+		background-size:cover;
+		background-repeat: no-repeat;
+		float:left;
+		position: relative;
+		margin-right:6%;
+		top:15%;
+	}
+	.yzx-inner .yzx-word{
+		width:36%;
+		height:100%;
+		color:#fff;
+		float: left;
+		font-size:12px;
+	}
+	.yzx-inner .yzx-word .yzx-word-inner{
+		width:100%;
+		height:54%;
+		position: relative;
+		padding:2% 0;
+		top:21%;
+		border-top:1px solid #fff;
+		border-bottom: 1px solid #fff;
+	}
+	.yzx-inner .yzx-word .yzx-word-inner .word-top, .word-bottom{
+		height: 50%;
+		line-height:20px;
+		text-align: center;
+	}
+	.yzx-inner .yzx-enjoy{
+		width:26%;
+		height:60%;
+		display: block;
+		background-image: url(images/enjoy3.png);
+		background-size:cover;
+		background-repeat: no-repeat;
+		margin-left: 6%;
+		float: left;
+		position: relative;
+		top:20%;
+	}
+	.trail-back{
+		width:90px;
+		height:30px;
+		background-image: url(images/trail.png);
+		background-size:cover;
+		position: absolute;
+		top:50px;
+		right:15px;
+	}
+</style>
+<body>
+<div id="container">
+</div>
+<div class="yzx-box">
+	<div class="yzx-inner">
+		<div class="yzx-logo"></div>
+		<div class="yzx-word">
+			<div class="yzx-word-inner">
+				<div class="word-top">关注云掌行公众号</div>
+				<div class="word-bottom">体验汽车新生活!</div>
+			</div>
+		</div>
+		<a class="yzx-enjoy" href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzI1NDQyMDY0MQ==&uin=MjI0MDI4NzYzMw%3D%3D&key=9289b6ec21f92a5988643a4213cb347192630dbebfaaeaa4ce8251490e51cbdfde186b63b29b4e1d40fbcacb5252e6dc13d4177453c19572&devicetype=android-22&version=26031933&lang=zh_CN&nettype=WIFI&ascene=3&wx_header=1#"></a>
+	</div>
+</div>
+<div  class="trail-back button" id="start"></div>
+<script>
+    var marker, lineArr = [];
+	var map = new AMap.Map("container", {
+        resizeEnable: true,
+        center: [116.397428, 39.90923],
+        zoom: 17
+    });
+    map.on("complete", completeEventHandler);
+    AMap.event.addDomListener(document.getElementById('start'), 'click', function() {
+        marker.moveAlong(lineArr, 5000);
+    }, false);
+    // AMap.event.addDomListener(document.getElementById('stop'), 'click', function() {
+    //     marker.stopMove();
+    // }, false);
+    // 地图图块加载完毕后执行函数
+    function completeEventHandler() {
+        marker = new AMap.Marker({
+            map: map,
+            position: [116.397428, 39.90923],
+            icon: "http://192.168.1.114/car.png",
+            offset: new AMap.Pixel(-26, -13),
+            autoRotation: true
+        });
+        var lngX = 116.397428, latY = 39.90923;        
+        lineArr.push([lngX, latY]);
+        for (var i = 1; i < 3; i++) {
+            lngX = lngX + Math.random() * 0.05;
+            if (i % 2) {
+                latY = latY + Math.random() * 0.0001;
+            } else {
+                latY = latY + Math.random() * 0.06;
+            }
+            lineArr.push([lngX, latY]);
+        }
+        // 绘制轨迹
+        var polyline = new AMap.Polyline({
+            map: map,
+            path: lineArr,
+            strokeColor: "red",  //线颜色
+            strokeOpacity: 1,     //线透明度
+            strokeWeight: 3,      //线宽
+            strokeStyle: "solid"  //线样式
+        });
+        map.setFitView();
+    }
+    
+   
+</script>
+</body>
+</html>

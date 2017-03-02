@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title>公司动态</title>
+    <link rel="stylesheet/less" href="less/event-detail.less">
+    <link rel="stylesheet" href="css/event-detail.css">
+    <script src="js/head.js"></script>
+</head>
+<body>
+    <div class="event-detail">
+        <div class="container event-detail-container">
+            <h4>云掌行大事记</h4>
+            <div class="detail-box">
+                <span class="detail-form">来源：云掌行</span>
+                <span class="detail-local">北京</span>
+                <span class="detail-time">2016-08-1</span>
+            </div>
+            <div class="detail-content cf">
+                <div class="detail-left">
+                    <img src="images/trends/trends-list.jpg" alt="">
+                </div>
+                <ul class="detail-word">
+                    <li>2015年10月：与乐视合作，提供汽车自助租赁解决方案。</li>
+                    <li>2015年12月：发起“搜易”租车自助租赁项目，并接触互联网投资机构。</li>
+                    <li>2016年 3 月：应邀担任创投项目之“车小二科技有限公司”合伙人兼销售总监。</li>
+                    <li>2016年 6 月：组建云掌行APP软件团队与通讯模块硬件开发团队。</li>
+                    <li>2016年 7 月：注册成立“北京云掌科技有限责任公司”。</li>
+                    <li>2016年 8 月：国机集团之中进名车正式入股云掌行。</li>
+                    <li>2016年10月：云掌行APP正式上线，通讯模块研发成功，产品正式上线。</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(".mobile-title").html("关于我们");
+        var list=$(".navbar-daohang li");
+        list.eq(0).removeClass('hot');
+        var list4=list.eq(4);
+        list4.addClass('hot');
+        list4.hover(function () {
+            $(this).addClass('hot');
+        })
+        var words=$('.navbar-daohang>ul>li>a');
+        words.eq(4).css({color:'#00b4ff'});
+    </script>
+</body>
+<script src="js/foot.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</html>

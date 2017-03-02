@@ -1,0 +1,303 @@
+@productColor:#333;
+@titleColor:#999;
+@productfonsize:24px;
+.inputStyle{
+  background-color:transparent;
+  border-radius:4px;
+  color:#fff;
+  border-color:#f5f5f5;
+  border-width:1px;
+}
+.center{
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+}
+.border-radius-1{
+  -webkit-border-radius:4px;
+  -moz-border-radius: 4px;
+  -o-border-radius:4px;
+  border-radius: 4px;
+}
+.cooperate-banner{
+    width:100%;
+  .cooperate-pic{
+    width:100%;
+    img{
+      width:100%;
+      display: block;
+    }
+  }
+}
+//合作加盟 begin
+.cooperate-content{
+  width:100%;
+  height:auto;
+  margin-top:60px;
+  .container{
+    padding:0px 0px!important;
+  }
+  .cooperate-container{
+    .cooperate-title{
+      width:100%;
+      height:40px;
+      border-bottom:1px solid @titleColor;
+      h2{
+        color:@productColor;
+        font-size: @productfonsize;
+        margin-top:0;
+        margin-bottom:0;
+        line-height:24px;
+        display:inline-block;
+        padding-bottom:8px;
+        font-weight:bold;
+        border-bottom:2px solid @productColor;
+      }
+      i{
+        width:24px;
+        height:28px;
+        background: url("../images/home/slant.png");
+        background-size:100% 100%;
+        background-position: center center;
+        display: inline-block;
+      }
+      span{
+        color:@titleColor;
+        font-size: 16px;
+        margin-left:-10px;
+      }
+    }
+    .join-content{
+      margin-top:30px;
+      .join-pic{
+        width:30%;
+        float: left;
+        img{
+          display: block;
+          width:100%;
+          border:2px solid #f5f5f5;
+        }
+      }
+      .join-term{
+        width:68%;
+        float: right;
+        margin-top:10px;
+        li{
+          font-size:18px;
+          color:#666;
+          margin-bottom:10px;
+        }
+      }
+    }
+    .support{
+      margin-top:60px;
+    }
+    .agent-term{
+      margin-top:30px;
+      li{
+        font-size: 18px;
+        color:#666;
+        margin-top:10px;
+      }
+    }
+    .league-info{
+      width:100%;
+      height:250px;
+      background: url("../images/cooperate/join.jpg");
+      background-size:100% 100%;
+      position:relative;
+      .league-content{
+        width:100%;
+        height:73%;
+        .center;
+        .league-content-left{
+          width:48%;
+          float: left;
+          position: relative;
+          dt{
+            width:90%;
+            margin-top:4px;
+            float: right;
+            span{
+              font-size: 14px;
+              color:#f5f5f5;
+            }
+            input{
+              width:66%;
+              height:30px;
+              float: right;
+              .inputStyle;
+            }
+            input::-ms-clear{
+              display: none;
+            }
+          }
+        }
+        .league-content-right{
+            width:50%;
+            float:left;
+          position: relative;
+          dt{
+            width:90%;
+            margin-top:4px;
+            float: right;
+            span{
+              font-size: 14px;
+              color:#f5f5f5;
+            }
+            input{
+              width:66%;
+              height:30px;
+              float: right;
+              .inputStyle;
+            }
+            input::-ms-clear{
+              display: none;
+            }
+          }
+        }
+        .join-submit{
+          width:53%;
+          height:40px;
+          background: #d7d6d6;
+          opacity: 0.7;
+          .border-radius-1;
+          margin:0 auto;
+          text-align: center;
+          display: block;
+          color:#333;
+          border:none;
+        }
+      }
+    }
+  }
+}
+
+//合作加盟 end
+@media (max-width:767px){
+  .cooperate-content{
+    margin-top:12px;
+    .container{
+      padding:10px 10px!important;
+    }
+    .cooperate-container{
+      .cooperate-title{
+        h2{
+          font-size:14px;
+          padding-bottom:2px;
+        }
+        span{
+          font-size:10px;
+        }
+        i{
+          position:relative;
+          top:5px;
+        }
+      }
+      .join-content{
+        margin-top:15px;
+        .join-term{
+          li{
+            font-size:12px;
+          }
+        }
+        .join-term-mobile{
+          width:100%;
+        }
+      }
+      .support{
+        margin-top:10px;
+      }
+      .agent-term{
+        margin-top:15px;
+        li{
+          font-size: 12px;
+        }
+      }
+      .agent-padding{
+        padding:0px 0px!important;
+      }
+      .league-info{
+        width:100%;
+        height:290px;
+        margin-top:15px;
+        background: url("../images/cooperate/join-mobile.jpg");
+        background-size:cover;
+        .league-content{
+          height:90%;
+          .league-content-left{
+            width:80%;
+            height:auto;
+            float:none;
+            margin:0 auto;
+            dt{
+              span{
+                font-size: 10px;
+              }
+              input{
+                height:25px;
+                font-size: 14px;
+              }
+            }
+          }
+          .league-content-right{
+            width:80%;
+            height:auto;
+            float:none;
+            margin:0 auto;
+            padding-bottom:6px;
+            dt{
+              span{
+                font-size: 10px;
+              }
+              input{
+                height:25px;
+                font-size: 14px;
+              }
+            }
+            .profession{
+              height:35px!important;
+            }
+          }
+          .join-submit{
+            height:30px;
+          }
+          .point{
+            width:100%;
+            height:16px;
+            line-height:10px;
+            color:#00b4ff;
+            font-size: 14px;
+            text-indent:149px;
+          }
+        }
+      }
+
+    }
+  }
+}
+@media (min-width:767px){
+  .cooperate-content{
+    .cooperate-container{
+      .league-info{
+        margin-top:30px;
+        .league-content{
+          .join-submit{
+          }
+          .point{
+              width:100%;
+              height:16px;
+              line-height:14px;
+              color:#00b4ff;
+              position: absolute;
+              bottom:26px;
+              text-indent:111px;
+          }
+        }
+      }
+    }
+  }
+}

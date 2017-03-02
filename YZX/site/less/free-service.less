@@ -1,0 +1,183 @@
+
+.border-radius-1{
+  -webkit-border-radius:4px;
+  -moz-border-radius: 4px;
+  -o-border-radius:4px;
+}
+.active-box{
+  width:100%;
+  height:1461px;
+  background:url("../images/active/active.jpg");
+  background-size:100% 100%;
+  background-position: center center;
+}
+.active-info{
+  .active-container{
+    padding:50px 0px 0px 0px;
+    height:440px;
+    margin:auto;
+    background: url("../images/active/info-bg.jpg");
+    background-size:100% 100%;
+    position:relative;
+    top:-24px;
+   .active-content{
+        width:80%;
+        margin:0 auto;
+      ul{
+        margin-bottom:23px;
+      }
+       .try-info{
+          li{
+         width:50%;
+         float:left;
+         span{
+           color:#bd7400;
+           font-size:24px;
+           margin-right:25px;
+         }
+         .active-tel, .active-real{
+           margin-left:60px;
+         }
+         input{
+           width:67%;
+           height:36px;
+           .border-radius-1;
+           border:0;
+         }
+         .manage{
+           width:57%;
+         }
+       }
+        }
+       .note{
+       li{
+         span{
+           color:#bd7400;
+           font-size:24px;
+           margin-right:25px;
+         }
+         input{
+           width:90%;
+           height:36px;
+           .border-radius-1;
+           border:0;
+         }
+         .address{
+         }
+         .remarks{
+           height:88px;
+         }
+       }
+     }
+       .active-submit{
+         button{
+           width:262px;
+           height:46px;
+           background:#bd7400;
+           .border-radius-1;
+           border:0;
+           display: block;
+           margin:auto;
+           color:#fff;
+           letter-spacing: 2px;
+           font-size: 24px;
+         }
+       }
+   }
+  }
+}
+@media (max-width:767px) and (max-width:992px ){
+    .active-box{
+      width:100%;
+      height:494px;
+      background: url("../images/active/active-mobile.jpg");
+      background-size:100% 100%;
+      background-position: center center;
+    }
+  .active-info{
+    .active-container{
+      width:96%;
+      height:302px;
+      margin:auto;
+      background: url("../images/active/info-mobile.jpg");
+      background-size:100% 100%;
+      position:relative;
+      top:-16px;
+      padding:18px 0px 0px;
+      .active-content{
+        ul{
+          margin-bottom:0px;
+        }
+        .try-info{
+          width:100%;
+          li{
+            width:100%;
+            float:none;
+            margin-bottom:10px;
+            span{
+              color:#bd7400;
+              font-size:12px;
+              margin-right:15px;
+            }
+            .active-tel{
+              margin-left:0px;
+            }
+            .active-real{
+              margin-left:-8%;
+            }
+            input{
+              width:67%;
+              height:18px;
+              .border-radius-1;
+              border:0;
+            }
+            .manage{
+              width:67%;
+              margin-left:-5px;
+            }
+          }
+        }
+        .note{
+          li{
+            margin-bottom:10px;
+            span{
+              color:#bd7400;
+              font-size:12px;
+              margin-right:0px;
+            }
+            input{
+              width:87%;
+              height:18px;
+              .border-radius-1;
+              border:0;
+            }
+            .address{
+            }
+            .remarks{
+              height:78px;
+            }
+          }
+        }
+        .active-submit{
+          button{
+            width:120px;
+            height:20px;
+            background:#bd7400;
+            .border-radius-1;
+            border:0;
+            display: block;
+            margin:auto;
+            color:#fff;
+            letter-spacing: 2px;
+            font-size:12px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (min-width:1920px) {
+  .active-box{
+    height:2054px;
+  }
+}

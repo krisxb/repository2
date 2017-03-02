@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" user-scalable="no">
+    <title>云掌行</title>
+    <link rel="stylesheet" href="less/footer.less">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="js/jQuery.js"></script>
+</head>
+<body>
+    <!--pc端 begin-->
+    <div class="yzx-footer">
+        <div class="container">
+            <div class="yzx-footer-content cf">
+                <div class="footer-info">
+                    <div class="info-top cf">
+                        <a href="javascript:void(0);">产品介绍</a>
+                        <a href="javascript:void(0);">预约试用</a>
+                        <a href="javascript:void(0);">合作加盟</a>
+                        <a href="javascript:void(0);">联系我们</a>
+                    </div>
+                    <p class="info-bottom">©2016 北京云掌行科技有限责任公司 [京ICP备16046457]</p>
+                </div>
+                <div class="footer-icon cf">
+                    <div class="icon-left">
+                        <a target="_blank" href="http://weibo.com/p/1005055974277124/home?from=page_100505&mod=TAB&is_all=1#place">
+                            <img src="images/home/weibo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="icon-right">
+                        <img src="images/home/weixin.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-code">
+                <img src="images/home/weixin.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!--pc端 end-->
+    <!--手机端 begin-->
+    <div class="mobile-footer">
+        <div class="mobile-footer-top">
+            <div class="code-attention cf">
+                <span>扫码请关注</span>
+                <i class="arrow"></i>
+            </div>
+        </div>
+        <div class="attention-content">
+            <div class="attention-pic cf">
+                <a class="attention-weibo" target="_blank" href="javascript:void(0);">
+                    <img src="images/home/download.jpg" alt="">
+                    <span>App</span>
+                </a>
+                <a class="attention-weixin" href="javascript:void(0);" style="margin-left:20%">
+                    <img src="images/home/weixin.jpg" alt="">
+                    <span>微信</span>
+                </a>
+            </div>
+        </div>
+        <div class="mobile-footer-bottom">
+            <div class="mobile-footer-list">
+               <div class="mobile-footer-category">
+                   <a href="">产品介绍</a>
+                   <a href="">预约试用</a>
+                   <a href="">合作加盟</a>
+                   <a href="">联系我们</a>
+               </div>
+                <p>©2016 北京云掌行科技有限责任公司 [京ICP备16046457]</p>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $('.arrow').click(function () {
+        $(this).toggleClass('rotate',function () {
+            stop=true;
+        });
+        $('.attention-content').toggleClass('show',function () {
+            stop=true;
+        });
+    })
+    $(".icon-right").mouseover(function () {
+        $(".footer-code").css({display:'block'});
+    }).mouseout(function () {
+        $(".footer-code").css({display:'none'});
+    })
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>产品中心</title>
+    <link rel="stylesheet/less" href="less/product.less">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/zzsc.css">
+    <link rel="stylesheet" href="css/product/idangerous.swiper.css">
+    <link rel="stylesheet" href="css/product/idangerous.swiper.3dflow.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/product/appstore.css">
+    <script src="js/product/jquery.min.js"></script>
+    <script src="js/product.js"></script>
+    <script src="js/zzsc.js"></script>
+    <script src="js/head.js"></script>
+
+</head>
+<body>
+    <div class="product-content">
+        <div class="product-pic">
+            <!--banner begin-->
+            <div class="product-banner">
+                <div id="myCarousel" class="carousel slide">
+                    <!-- 轮播（Carousel）指标 -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                    </ol>
+                    <!-- 轮播（Carousel）项目 pc端-->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/home/product-2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/home/product-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--banner end-->
+        </div>
+        <!--产品介绍 begin-->
+        <div class="product-intro">
+            <div class="container">
+                <div class="intro-title">
+                    <h2>产品介绍</h2>
+                    <i></i>
+                    <span>Product Introduction</span>
+                </div>
+                <div class="intro-banner">
+                    <!--产品轮播  begin-->
+                    <div class="btnMode" id="slider">
+                        <a href="javascript:void(0);" class="prev btn"></a>
+                        <div class="scroll">
+                            <ul class="scrollContainer">
+                                <li class="panel" id="panel_1">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-1.JPG" />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_2">
+                                    <a href="javascript:void(0);" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-2.JPG" />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_3">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt=""src="images/product/product-3.JPG" />
+
+                                    </a>
+                                </li>
+                                <li class="panel current" id="panel_4">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-4.JPG" />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_5">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-5.JPG"  />
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_6">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-6.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_7">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-7.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_8">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-8.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_9">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-9.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_10">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-10.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_11">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-11.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_12">
+                                    <a href="javascript:void(0)" class="inside" >
+                                        <img width="350" height="194" alt="" src="images/product/product-12.JPG"  />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_13">
+                                    <a href="javascript:void(0)" class="inside" >
+                                        <img width="350" height="194" alt="" src="images/product/product-13.JPG" />
+
+                                    </a>
+                                </li>
+                                <li class="panel" id="panel_14">
+                                    <a href="javascript:void(0)" class="inside">
+                                        <img width="350" height="194" alt="" src="images/product/product-14.JPG"  />
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0);" class="next btn"></a>
+                    </div>
+                    <!--产品轮播  end-->
+                    <!--手机端轮播 begin-->
+                    <div class="swiper-container featured mobile-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" style="background-image:url(images/product/product-1.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-2.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-3.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-4.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-5.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-6.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-7.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-8.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-9.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-10.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-11.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-12.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-13.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                            <div class="swiper-slide" style="background-image:url(images/product/product-14.JPG);background-size:100% 100%;">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--手机端轮播 end-->
+                </div>
+
+            </div>
+        </div>
+        <!--产品介绍 end-->
+
+        <!--使用说明和意见反馈 begin-->
+        <div class="server-content">
+           <div class="container server-container">
+               <div class="row cf server-row">
+                   <div class="col-lg-6 col-md-6 col-xs-12 ">
+                       <div class="server-left">
+                           <!--标题 begin-->
+                           <div class="server-title">
+                               <h2>使用说明</h2>
+                               <i></i>
+                               <span>Instructions</span>
+                               <a href="instruction.html">
+                               </a>
+                           </div>
+                           <!--标题 end-->
+                           <!--说明 begin-->
+                            <div class="server-introduct">
+                                <div class="instruction">
+                                    <a href="instruction.html">点击查看使用说明</a>
+                                </div>
+                            </div>
+                           <!--说明 end-->
+                       </div>
+                   </div>
+                   <div class="col-lg-6 col-md-6 col-xs-12 ">
+                       <div class="server-right">
+                           <!--标题 begin-->
+                           <div class="server-title">
+                               <h2>意见反馈</h2>
+                               <i></i>
+                               <span>Feedback</span>
+                           </div>
+                           <!--标题 end-->
+                           <!--建议 begin-->
+                           <div class="server-advice">
+                               <ul class="advice-content">
+                                   <li class="server-name">
+                                       <span>姓名：</span>
+                                       <input type="text" class="name"  placeholder="请输入姓名" >
+                                   </li>
+                                   <p class="advice-name"></p>
+                                   <li>
+                                       <span>电话：</span>
+                                       <input type="text" class="tel" placeholder="请输入电话号码">
+                                   </li>
+                                   <p class="advice-tel"></p>
+                                   <li>
+                                       <span>备注：</span>
+                                       <input type="text" class="remark" >
+                                   </li>
+                                   <li>
+                                       <button class="submit">提交</button>
+                                   </li>
+                               </ul>
+                           </div>
+                           <!--建议 end-->
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <!--使用说明和意见反馈 end-->
+        <!--底部 begin-->
+        <script src="js/foot.js"></script>
+        <!--底部 end->
+    <!-- Don't forget to get the latest Swiper and scrollbar version here-->
+        <script src="js/product/idangerous.swiper-2.0.min.js"></script>
+        <script src="js/product/idangerous.swiper.3dflow-2.0.js"></script>
+        <script src="js/product/appstore.js"></script>
+    </div>
+</body>
+<script>
+    $(".mobile-title").html("产品中心");
+    var list=$(".navbar-daohang li");
+    list.eq(0).removeClass('hot');
+    var list1=list.eq(1);
+    list1.addClass('hot');
+    list1.hover(function () {
+        $(this).addClass('hot');
+    })
+    var words=$('.navbar-daohang>ul>li>a');
+    words.eq(1).css({color:'#00b4ff'});
+    var menu_mobile=$(".ZMenu-left-nav-a");
+    menu_mobile.eq(1).css({background:'#00b4ff',color:'#fff',fontWeight:'bold'});
+</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/jquery.hammer.js"></script>
+<script src="js/touchmobile.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</html>

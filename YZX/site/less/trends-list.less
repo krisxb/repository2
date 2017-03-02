@@ -1,0 +1,42 @@
+.trends-content{
+  padding-top:40px;
+  background: #fbfbfb;
+  height:640px;
+  .box-shadow{
+    -webkit-box-shadow:0px 10px 6px rgba(216, 216, 216, .6);//x轴偏移量，y轴偏移量，阴影的半径，阴影的颜色
+    -moz-box-shadow:0px 10px 6px rgba(216, 216, 216, .6);
+    box-shadow:0px 10px 6px rgba(216, 216, 216, .6);
+    margin-bottom:20px;
+  }
+  .trends-box{
+    width:100%;
+    display: block;
+    color:#333;
+    text-decoration: none;
+    cursor: pointer;
+    img{
+      width:100%;
+      display:block;
+    }
+    p{
+      color:#999;
+    }
+    h3{
+      font-size: 20px;
+    }
+  }
+}
+@media (max-width:767px){
+  .trends-content{
+    margin-top:0px;
+    height:480px;
+    .trends-box{
+      h3{
+        font-size: 18px;
+      }
+      p{
+        font-size: 14px;
+      }
+    }
+  }
+}

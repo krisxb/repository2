@@ -1,0 +1,504 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: "Microsoft Yahei";
+}
+.container{
+	width:100%;
+	height:100%;
+}
+.hide{
+	display: none!important;
+}
+/*loading 页begin*/
+#loading{
+	background-color:#081537;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:22;
+	width:100%;
+	height:100%;
+	overflow: hidden;
+}
+#loading .yzx-logo{
+	width:184px;
+	height:160px;
+	position:absolute;
+	top:40%;
+	left:50%;
+	 background-image: url(../images/logo-mobile.png);
+	background-size:93px 46px;
+	background-repeat: no-repeat;
+	background-position: center  0%; 
+	-webkit-transform:translate3d(-50%,-50%,0);
+	transform:translate3d(-50%,-50%,0);
+}
+#loading .yzx-logo .yzx-word{
+	width:100%;
+	height:46px;
+	text-align: center;
+	position: absolute;
+	bottom: 10px;
+	font-size:0.26rem;
+	color: #fff;
+
+}
+#loading .progress{
+	width:180px;
+	height:42px;
+	margin: 0 auto;
+	display: block;
+	/*background: green;*/
+	position: absolute;
+	bottom:30%;
+	left:26%;
+}
+.bar {
+  height: 40px;
+  width: 0;
+  transition: width 1.2s ease-in-out;
+  position: relative;
+  /*margin: 0.5rem 0;*/
+  border-radius: 4px;
+}
+.bar.mint {
+  background-color: #14c3a2;
+  background-image: repeating-linear-gradient(-45deg, #14c3a2, #14c3a2 30px, #22e8c3 30px, #22e8c3 60px);
+  background-size: 600px 100%;
+  animation: barberpole 12s linear infinite;
+ /* border-bottom: 0.2rem solid #0d7e68;*/
+}
+.bar.active:after, .bar.active:before {
+  opacity: 1;
+}
+/* .bar:after {
+  content: attr(data-percent) "%";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 40px;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 2s 0.6s;
+} */
+@keyframes barberpole {
+  from {
+    background-position: 0% 0%;
+  }
+
+  to {
+    background-position: 600px 0%;
+  }
+}
+.bar.active[data-percent="5"] {
+  width: 5%;
+}
+
+.bar.active[data-percent="10"] {
+  width: 10%;
+}
+
+.bar.active[data-percent="15"] {
+  width: 15%;
+}
+
+.bar.active[data-percent="20"] {
+  width: 20%;
+}
+
+.bar.active[data-percent="25"] {
+  width: 25%;
+}
+
+.bar.active[data-percent="30"] {
+  width: 30%;
+}
+
+.bar.active[data-percent="35"] {
+  width: 35%;
+}
+
+.bar.active[data-percent="40"] {
+  width: 40%;
+}
+
+.bar.active[data-percent="45"] {
+  width: 45%;
+}
+
+.bar.active[data-percent="50"] {
+  width: 50%;
+}
+
+.bar.active[data-percent="55"] {
+  width: 55%;
+}
+
+.bar.active[data-percent="60"] {
+  width: 60%;
+}
+
+.bar.active[data-percent="65"] {
+  width: 65%;
+}
+
+.bar.active[data-percent="70"] {
+  width: 70%;
+}
+
+.bar.active[data-percent="75"] {
+  width: 75%;
+}
+
+.bar.active[data-percent="80"] {
+  width: 80%;
+}
+
+.bar.active[data-percent="85"] {
+  width: 85%;
+}
+
+.bar.active[data-percent="90"] {
+  width: 90%;
+}
+
+.bar.active[data-percent="95"] {
+  width: 95%;
+}
+
+.bar.active[data-percent="100"] {
+  width: 100%;
+}
+/*loading 页end*/
+.section{
+	width:100%;
+	height:100%;
+}
+.page1{
+	background-image:url(../images/page-1.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.word-fadeIn{
+	width:1rem;
+	height:3.4rem;
+	position:absolute;
+	top:0.4rem;
+	right:0.35rem;
+	overflow: hidden;
+	display: none;
+}
+.word-fadeIn-1{
+	width:1rem;
+	height:3.4rem;
+	position:absolute;
+	top:0.4rem;
+	right:0.35rem;
+	overflow: hidden;
+	 display:block;
+	-webkit-animation: fadeIn 3s linear ;
+	animation: fadeIn 3s linear; 
+}
+.container-word{
+	width:1rem;
+	height:3.4rem;
+	position:absolute;
+	top:0.6rem;
+	right:-120%;
+	 display: flex;
+	flex-direction:row-reverse; 
+}
+.container-word-left{
+	width:1rem;
+	height:3.4rem;
+	position: absolute;
+	top:0.6rem;
+	left:-120%;
+	 display: flex;
+	flex-direction:row-reverse; 
+}
+/*定义动画的名称 名称为fadeIn*/
+@-webkit-keyframes fadeIn {
+0% {
+opacity: 0; /*初始状态 透明度为0*/
+}
+50% {
+opacity: 0.2; /*中间状态 透明度为0*/
+}
+80%{
+	opacity:0.7;
+}
+100% {
+opacity: 1; /*结尾状态 透明度为1*/
+}
+}
+
+.container .container-word div{
+	font-size:0.2rem;
+	margin-left:0.1rem;
+	color:#fff;
+	width:0.2rem;
+	height:100%;
+	/* -webkit-animation-name: fadeIn; 动画名称
+	-webkit-animation-duration: 3s; 动画持续时间
+	-webkit-animation-iteration-count: 1; 动画次数
+	-webkit-animation-delay: 0s; 延迟时间 */
+}
+.word-fadeIn div{
+	font-size:0.2rem;
+	margin-left:0.1rem;
+	color:#fff;
+	width:0.2rem;
+	height:100%;
+	float: right;
+}
+.container-word-left div{
+	font-size:0.2rem;
+	margin-left:0.1rem;
+	color:#fff;
+	width:0.2rem;
+	height:100%;
+	float: right;
+}
+.word-fadeIn-1 div{
+	font-size:0.2rem;
+	margin-left:0.1rem;
+	color:#fff;
+	width:0.2rem;
+	height:100%;
+	float: right;
+}
+.clock{
+	width:140px;
+	height:140px;
+	border-radius: 50%;
+	display: none;
+	position:absolute;
+	top:0.6rem;
+	left:0.5rem;
+	background-image:url(../images/clock-bg.png);
+	background-size: cover;
+}
+canvas{
+	margin:0 auto;
+
+}
+/*人物的部分*/
+.people{
+	width:170px;
+	height:170px;
+	position:absolute;
+	bottom:0.05rem;
+	left:0.74rem;
+	background-image:url(../images/people-init.png);
+	background-size: cover;
+}
+/*淡出的动画*/
+@-webkit-keyframes fadeOut {
+	0% {
+		opacity:1;
+	}
+	25% {
+        opacity:0.8;
+    }
+    50% {
+        opacity: 0.2;    
+    }
+    75% {
+        opacity:0.1;
+    }
+    100% {
+    	opacity:0;
+    }
+}
+.people{
+	-webkit-animation-name: fadeOut; /*动画名称*/
+	-webkit-animation-duration: 3s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}
+.people-change{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left: 0;
+	top:0;
+	background-image: url(../images/people-change.png);
+	background-size: cover;
+}
+.people-change{
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 3s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay:3s; /*延迟时间*/
+}
+/*音乐的部分 begin*/
+.music-wrap{
+	position:absolute;
+	top:0.15rem;
+	right:0.15rem;
+}
+.music-wrap .icon-music{
+	width:28px;
+	height:28px;
+	display: block;
+	background-image:url(../images/arrow.png);
+	background-size:922px 135px;
+	background-position: -632px -93px;
+}
+.music-wrap .off{
+	background-position: -661px -93px;
+}
+/*箭头的部分*/
+.arrow-area{
+	position:absolute;
+	right:45%;
+	bottom:0.1rem;
+	width:44px;
+	height:44px;
+}
+.arrow-area .arrow{
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	background-image:url(../images/arrow.png);
+	background-size:922px 135px;
+	background-position: 0 -120px;
+}
+.arrow-area .arrow{
+	width:20px;
+	height:11px;
+	z-index: 9999;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	animation: fadeInUp 1.5s .2s ease infinite;
+    -webkit-animation: fadeInUp 1.5s .2s infinite;
+}
+/*箭头的部分 end*/
+.page2{
+	 background-image:url(../images/page2.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.page3{
+	background-image:url(../images/page3.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.page4{
+	background-image:url(../images/page4.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.page5{
+	background-image:url(../images/page5.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.page6{
+	background-image:url(../images/page6.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.page7{
+	background-image:url(../images/page7.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.page8{
+	background-image:url(../images/page7.jpg);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.car-big{
+	width:3rem;
+	height:1.6rem;
+	position: absolute;
+	bottom:40px;
+	right:-120%;
+	background-image: url(../images/car2.png);
+	background-size: cover;
+
+}
+.couple{
+	width:0;
+	height:0;
+	position:absolute;
+	left:15%;
+	bottom: 0;
+	z-index:99999;
+	background-image: url(../images/couple.png);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.code{
+	width:0;
+	height:0;
+	position: absolute;
+	right:0.35rem;
+	top:1.7rem;
+	display: block;
+}
+@-webkit-keyframes carChange{
+	0% {
+		width:120px;
+		height:120px;
+	}
+	20% {
+		width:96px;
+		height:96px;
+	}
+	40%{
+		width:48px;
+		height:48px;
+	}
+	60%{
+		width:0px;
+		height:0px;
+	}
+	80%{
+		width:48px;
+		height:48px;
+	}
+	100%{
+		width:96px;
+		height:96px;
+	}
+
+}
+.car-small{
+	width:120px;
+	height:120px;
+	position:absolute;
+	z-index: 99999;
+	background-image: url(../images/car.png);
+	background-position: 0 0;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	/*transform:scale(0.2,0.2);
+	-webkit-transition:all 0.5s;*/
+}
+.cycle{
+	width:360px;
+	height:360px;
+	/*border:2px solid red;*/
+	position:relative;
+	left:-120px;
+	bottom:-170px;
+	border-radius: 50%;
+}
+

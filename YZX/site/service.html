@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>客户服务</title>
+    <link rel="stylesheet/less" href="less/service.less">
+    <link rel="stylesheet" href="css/service.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/head.js"></script>
+</head>
+<body>
+        <div class="service-content">
+            <div class="service-pic">
+                <a href="free-service.html">
+                    <img src="images/service/service-bg.jpg" alt="">
+                </a>
+            </div>
+        </div>
+        <!--爱车百科和使用指引 begin-->
+        <div class="car-content">
+            <div class="container service-container">
+                <div class="row">
+                    <!--爱车百科  begin-->
+                    <div class="col-lg-6 col-md-6 col-xs-12">
+                        <!--标题 begin-->
+                        <div class="server-title">
+                            <h2>爱车百科</h2>
+                            <i></i>
+                            <span>Car Encyclopedia</span>
+                           <!-- <a href="love-car.html">
+                            </a>-->
+                        </div>
+                        <!--标题 end-->
+                        <ul class="car-info">
+                            <li class="cf">
+                                <div class="car-pic">
+                                    <img alt="电子眼" src="http://img3.xcarimg.com/parts/19998/19999/640_480_20160804170806232976188720699.jpg" title="电子眼" />
+                                </div>
+                                <div class="car-news">
+                                    <a  href='news-detail.html' class="news-title">"这事不赖我 get以下技能不再“吃罚单”！</a>
+                                    <div class="news-content">
+                                        相信不少朋友都和我有同感，那就是不敢查违章！开车回来后总是要问自己几遍：刚才过路口是不是被拍了？
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="car-pic">
+                                    <img alt="循环" src="http://img2.xcarimg.com/parts/19998/19999/640_480_20160802105859392035664889333.jpg" title="循环" />
+                                </div>
+                                <div class="car-news">
+                                    <a  href='news-detail-2.html' class="news-title">一点没闹着玩 空调内外循环用错会致命</a>
+                                    <div class="news-content">
+                                        空调的内外循环使用不当会致命？听起来有点可笑，但确实是真的！
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="cf">
+                                <div class="car-pic">
+                                    <img alt="二手车" src="http://img1.xcarimg.com/parts/19998/19999/640_20160729181434357217883603461.jpg" title="二手车" />
+                                </div>
+                                <div class="car-news">
+                                    <a href='news-detail-3.html' class="news-title">二手车活更好？新车or二手车从此不纠结</a>
+                                    <div class="news-content">
+                                        "买辆新车还是二手车是许多买车朋友都会考虑的问题，对于他们来说，买新车总感觉超预算，而买二手车又不放心怕买到问题车，确实是够让人纠结的。
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--爱车百科  end-->
+                    <!--使用指南 begin-->
+                    <div class="col-lg-6 col-md-6 col-xs-12">
+                        <!--标题 begin-->
+                        <div class="server-title">
+                            <h2>使用指引</h2>
+                            <i></i>
+                            <span>Use Guidelines</span>
+                            <a href="service-list.html">
+                            </a>
+                        </div>
+                        <!--标题 end-->
+                        <ul class="use-info">
+                            <li>
+                                <a href="service-list.html" class="use-title">遥控钥匙的感应距离是多少？按键遥控距离是多少？</a>
+                                <div class="use-detail">
+                                    感应距离无障碍直线距离是3~5米，按键遥控无障碍直线距离是20~30米。
+                                </div>
+                            </li>
+                            <li>
+                                <a href="service-list.html" class="use-title">APP初次登陆使用时显示“授权限制”和“设备未连接”是怎么回事？</a>
+                                <div class="use-detail">
+                                    “授权限制”表示设备未激活；“设备未连接”表示1.设备没信号；2.设备没电了；3.设备坏了。
+                                </div>
+                            </li>
+                            <li>
+                                <a href="service-list.html" class="use-title">行车落锁什么时候会落锁？</a>
+                                <div class="use-detail">
+                                    因车型而异，部分车型踩刹车即会自动落锁，部分需等待一段时间自动落锁。
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--使用指南 end-->
+                </div>
+            </div>
+        </div>
+        <!--爱车百科和使用指引 end-->
+</body>
+<script>
+    $(".mobile-title").html("客户服务");
+    var list=$(".navbar-daohang li");
+    list.eq(0).removeClass('hot');
+    var list2=list.eq(2);
+    list2.addClass('hot');
+    list2.hover(function () {
+        $(this).addClass('hot');
+    })
+    var words=$('.navbar-daohang>ul>li>a');
+    words.eq(2).css({color:'#00b4ff'});
+    // 获取可视窗口的大小
+    var cwidth=$(document).width();
+    if(cwidth<=767){
+        var imgSrc='images/service/service-mobile.jpg'
+        $('.service-pic>img').attr('src',imgSrc);
+    }
+    var menu_mobile=$(".ZMenu-left-nav-a");
+    menu_mobile.eq(2).css({background:'#00b4ff',color:'#fff',fontWeight:'bold'});
+</script>
+<script src="js/foot.js"></script>
+<script src="js/service.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</html>

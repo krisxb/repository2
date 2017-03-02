@@ -1,0 +1,39 @@
+.trends-content {
+  padding-top: 40px;
+  background: #fbfbfb;
+}
+.trends-content .box-shadow {
+  -webkit-box-shadow: 0px 10px 6px rgba(216, 216, 216, 0.6);
+  -moz-box-shadow: 0px 10px 6px rgba(216, 216, 216, 0.6);
+  box-shadow: 0px 10px 6px rgba(216, 216, 216, 0.6);
+  margin-bottom: 20px;
+}
+.trends-content .trends-box {
+  width: 100%;
+  height: 334px;
+  display: block;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+.trends-content .trends-box img {
+  width: 100%;
+  display: block;
+}
+.trends-content .trends-box p {
+  color: #999;
+}
+.trends-content .trends-box h3 {
+  font-size: 20px;
+}
+@media (max-width: 767px) {
+  .trends-content {
+    margin-top: 0px;
+  }
+  .trends-content .trends-box h3 {
+    font-size: 18px;
+  }
+  .trends-content .trends-box p {
+    font-size: 14px;
+  }
+}

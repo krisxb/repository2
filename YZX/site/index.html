@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <link rel="stylesheet/less" href="less/index.less">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/head.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="yzx-home">
+        <div class="home-content">
+            <!--banner begin-->
+            <div class="home-banner">
+                <div id="myCarousel" class="carousel slide" >
+                    <!-- 轮播（Carousel）指标 -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                    <!-- 轮播（Carousel）项目 pc端-->
+                    <!-- 轮播（Carousel）项目 -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/home/banner-1.JPG" alt="">
+                        </div>
+                        <div class="item">
+                            <a href="service.html" style="display: block">
+                                <img src="images/home/banner-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="cooperate.html" style="display: block">
+                                <img src="images/home/banner-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <img src="images/home/banner-4.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- 轮播（Carousel）导航 -->
+                    <a class="carousel-control left" href="#myCarousel"
+                       data-slide="prev">
+                        <div class="carousel-left"></div>
+                    </a>
+                    <a class="carousel-control right" href="#myCarousel"
+                       data-slide="next">
+                        <div class="carousel-right"></div>
+                    </a>
+                </div>
+            </div>
+            <!--banner end-->
+            <!--category begin-->
+            <div class="category-content">
+                <div class="container">
+                    <div class="row category-row">
+                        <div class="col-lg-3 col-xs-6 col-md-3 category-menu">
+                            <img src="images/home/category-1.jpg" alt="产品介绍">
+                            <div class="category-title">
+                                <h3>产品介绍</h3>
+                                <div class="category-detail">
+                                    <a href="product.html">
+                                        <span>查看详情</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-6 col-md-3 category-menu">
+                            <img src="images/home/category-2.jpg" alt="产品介绍">
+                            <div class="category-title">
+                                <h3>客户服务</h3>
+                                <div class="category-detail">
+                                    <a href="service.html">
+                                        <span>查看详情</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-6 col-md-3 category-menu">
+                            <img src="images/home/category-3.jpg" alt="产品介绍">
+                            <div class="category-title">
+                                <h3>招商政策</h3>
+                                <div class="category-detail">
+                                    <a href="cooperate.html">
+                                        <span>查看详情</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-xs-6 col-md-3 category-menu">
+                            <img src="images/home/category-4.jpg" alt="产品介绍">
+                            <div class="category-title">
+                                <h3>公司概况</h3>
+                                <div class="category-detail">
+                                    <a href="aboutus.html">
+                                        <span>查看详情</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--category end-->
+        </div>
+    </div>
+    <script src="js/foot.js"></script>
+    <script src="js/index.js"></script>
+</body>
+<script>
+    $(".mobile-title").html("首页");
+    var list=$(".navbar-daohang li");
+    var list0=list.eq(0);
+    list0.addClass('hot');
+    list0.hover(function () {
+        $(this).addClass('hot');
+    })
+    var words=$('.navbar-daohang>ul>li>a');
+    words.eq(0).css({color:'#00b4ff'});
+</script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/jquery.hammer.js"></script>
+<script src="js/touchmobile.js"></script>
+</html>

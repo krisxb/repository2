@@ -1,0 +1,22 @@
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;}
+body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";}
+a{color:#000;outline:none;text-decoration:none;}
+a:hover{text-decoration:underline;}
+/* slider */
+#slider{width:100%;height:312px;overflow:hidden;padding:20px 0px;position:relative;margin:0 auto;}
+.scroll{width:1110px;height:312px;margin:0 auto;overflow:hidden;position:relative;}
+.scrollContainer{position: relative;width:1815px;left:0px;}
+.scrollContainer .current .inside{width:418px;height:232px;}
+.scrollContainer .panel{width:350px;height:194px;float: left;margin-right:10px;display:inline;}
+.panel .inside{display:block;position:relative; }
+.panel a{
+    cursor: default;
+}
+.inside img{height:100%;width:100%;}
+/*.btnMode a.btn{background:url('../images/product/index.png') no-repeat;}*/
+.btnMode a.btn{width:20px; height:39px;position:absolute;top:98px; }
+.btnMode a.prev{left:0;background:url('../images/product/row-left.jpg') no-repeat;background-size:100% 100%;}
+/*.btnMode a.prev:hover{background-position:0 -102px;}*/
+.btnMode a.next{right:0;background:url('../images/product/row-right.jpg') no-repeat;background-size:100% 100%;}
+/*.btnMode a.next:hover{background-position:-50px -102px;}*/

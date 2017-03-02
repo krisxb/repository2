@@ -1,0 +1,328 @@
+.cf {
+  zoom: 1;
+}
+.cf:after {
+  display: block;
+  content: 'clear';
+  clear: both;
+  line-height: 0;
+  visibility: hidden;
+}
+.active {
+  background: #00b4ff!important;
+}
+.center {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.border-radius-1 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.product-content {
+  width: 100%;
+}
+.product-content .product-pic {
+  width: 100%;
+}
+.product-intro {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+.product-intro .container .intro-title {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #999;
+}
+.product-intro .container .intro-title h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+.product-intro .container .intro-title i {
+  width: 24px;
+  height: 28px;
+  background: url("../images/home/slant.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+}
+.product-intro .container .intro-title span {
+  color: #999;
+  font-size: 16px;
+  margin-left: -10px;
+}
+.product-intro .container .intro-banner {
+  width: 100%;
+  height: 260px;
+  margin-top: 30px;
+}
+.server-content {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+}
+.server-content .server-container {
+  height: 100%;
+}
+.server-content .server-container .server-title {
+  width: 100%;
+  height: 40px;
+  border-bottom: 1px solid #999;
+}
+.server-content .server-container .server-title h2 {
+  color: #333;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 24px;
+  display: inline-block;
+  padding-bottom: 8px;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+}
+.server-content .server-container .server-title i {
+  width: 24px;
+  height: 28px;
+  background: url("../images/home/slant.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  display: inline-block;
+}
+.server-content .server-container .server-title span {
+  color: #999;
+  font-size: 16px;
+  margin-left: -10px;
+}
+.server-content .server-container .server-title a {
+  width: 17%;
+  height: 100%;
+  display: inline-block;
+  float: right;
+  background: url("../images/home/detail.png");
+  background-size: 100% 100%;
+}
+.server-content .server-container .server-introduct {
+  width: 100%;
+  height: 262px;
+  margin-top: 30px;
+  background: url("../images/home/server.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.server-content .server-container .server-introduct .instruction {
+  width: 100%;
+  position: absolute;
+  bottom: 26px;
+}
+.server-content .server-container .server-introduct .instruction a {
+  display: block;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+.server-content .server-container .server-advice {
+  width: 100%;
+  height: 262px;
+  margin-top: 30px;
+  background: url("../images/home/advice.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+.server-content .server-container .server-advice .advice-content {
+  width: 360px;
+  height: 220px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.server-content .server-container .server-advice .advice-content li {
+  width: 360px;
+  height: auto;
+  margin-top: 3px;
+}
+.server-content .server-container .server-advice .advice-content li span {
+  font-size: 16px;
+  color: #f5f5f5;
+}
+.server-content .server-container .server-advice .advice-content li input {
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 4px;
+  color: #fff;
+  border-color: #f5f5f5;
+  border-width: 1px;
+}
+.server-content .server-container .server-advice .advice-content li input:focus {
+  outline: none;
+}
+.server-content .server-container .server-advice .advice-content li input::-ms-clear {
+  display: none;
+}
+.server-content .server-container .server-advice .advice-content li .submit {
+  width: 300px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+  background: #C4C7C8;
+  opacity: 0.7;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 0;
+  margin-top: 6px;
+  margin-left: 53px;
+}
+.server-content .server-container .server-advice .advice-content p {
+  width: 100%;
+  height: 14px;
+  margin: 4px 0px;
+  text-align: left;
+  text-indent: 50px;
+  line-height: 14px;
+  color: #00b4ff;
+}
+@media (min-width: 767px) {
+  .container {
+    padding: 0px !important;
+  }
+  .btnMode {
+    display: block;
+  }
+  .featured {
+    display: none;
+  }
+  .server-content .server-container .server-advice .advice-content li .remark {
+    height: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .carousel-indicators {
+    bottom: 2px!important;
+  }
+  .product-intro .container .intro-banner {
+    height: auto;
+    margin-top: 0px;
+  }
+  .btnMode {
+    display: none;
+  }
+  .featured {
+    display: block;
+  }
+  .server-content {
+    margin-top: 30px;
+  }
+  .server-content .server-container .server-title h2 {
+    font-size: 14px;
+    padding-bottom: 2px;
+  }
+  .server-content .server-container .server-title span {
+    font-size: 10px;
+  }
+  .server-content .server-container .server-title a {
+    width: 35px;
+    height: 20px;
+    background: url("../images/service/more-mobile.png");
+    background-size: 100% 100%;
+    background-position: center  center;
+    margin-top: 10px;
+  }
+  .server-content .server-container .server-title i {
+    position: relative;
+    top: 5px;
+  }
+  .server-content .server-container .server-advice {
+    height: 170px;
+    margin-top: 10px;
+    background-size: 100% 100%;
+  }
+  .server-content .server-container .server-advice .advice-content {
+    width: 226px;
+    height: 160px;
+    margin: auto;
+  }
+  .server-content .server-container .server-advice .advice-content p {
+    height: 10px;
+    margin: 2px 0px;
+    font-size: 10px;
+  }
+  .server-content .server-container .server-advice .advice-content li {
+    width: 100%;
+  }
+  .server-content .server-container .server-advice .advice-content li input {
+    width: 181px;
+    height: 19px;
+  }
+  .server-content .server-container .server-advice .advice-content li span {
+    font-size: 12px;
+  }
+  .server-content .server-container .server-advice .advice-content li .submit {
+    width: 181px;
+    height: 19px;
+    margin-left: 40px;
+  }
+  .server-content .server-container .server-advice .advice-content li .remark {
+    height: 49px;
+  }
+  .server-content .server-container .server-advice .advice-content li .submit {
+    font-size: 13px;
+  }
+  .server-content .server-container .server-advice .advice-content .server-name {
+    margin-top: 8px;
+  }
+  .server-content .server-container .server-introduct {
+    height: 158px;
+    background-size: 100% 100%;
+    margin-top: 10px;
+  }
+  .server-content .server-container .server-introduct .instruction a {
+    font-size: 14px;
+  }
+  .server-content .server-container .server-right {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .product-intro {
+    margin-top: 12px;
+  }
+  .product-intro .container .intro-title h2 {
+    font-size: 14px;
+    padding-bottom: 2px;
+  }
+  .product-intro .container .intro-title span {
+    font-size: 10px;
+  }
+  .product-intro .container .intro-title a {
+    width: 35px;
+    height: 20px;
+    background: url("../images/service/more-mobile.png");
+    background-size: 100% 100%;
+    background-position: center  center;
+    margin-top: 10px;
+  }
+  .product-intro .container .intro-title i {
+    position: relative;
+    top: 5px;
+  }
+}

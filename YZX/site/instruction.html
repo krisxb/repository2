@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <title>产品说明</title>
+    <link rel="stylesheet/less" href="less/instruction.less">
+    <link rel="stylesheet" href="css/instruction.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/head.js"></script>
+</head>
+<body>
+    <div class="instruction">
+        <div class="container instruction-container">
+            <div class="product-instruction"></div>
+            <div class="product-instruction-2"></div>
+            <div class="product-step"></div>
+            <div class="product-step-2"></div>
+        </div>
+    </div>
+</body>
+<script src="js/foot.js"></script>
+<script>
+    $(".mobile-title").html("产品中心");
+    var list=$(".navbar-daohang li");
+    list.eq(0).removeClass('hot');
+    var list1=list.eq(1);
+    list1.addClass('hot');
+    list1.hover(function () {
+        $(this).addClass('hot');
+    })
+</script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+<script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</html>

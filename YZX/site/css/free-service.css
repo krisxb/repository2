@@ -1,0 +1,173 @@
+.border-radius-1 {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.active-box {
+  width: 100%;
+  height: 1461px;
+  background: url("../images/active/active.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+}
+.active-info .active-container {
+  padding: 50px 0px 0px 0px;
+  height: 440px;
+  margin: auto;
+  background: url("../images/active/info-bg.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  top: -24px;
+}
+.active-info .active-container .active-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.active-info .active-container .active-content ul {
+  margin-bottom: 23px;
+}
+.active-info .active-container .active-content .try-info li {
+  width: 50%;
+  float: left;
+}
+.active-info .active-container .active-content .try-info li span {
+  color: #bd7400;
+  font-size: 24px;
+  margin-right: 25px;
+}
+.active-info .active-container .active-content .try-info li .active-tel,
+.active-info .active-container .active-content .try-info li .active-real {
+  margin-left: 60px;
+}
+.active-info .active-container .active-content .try-info li input {
+  width: 67%;
+  height: 36px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 0;
+}
+.active-info .active-container .active-content .try-info li .manage {
+  width: 57%;
+}
+.active-info .active-container .active-content .note li span {
+  color: #bd7400;
+  font-size: 24px;
+  margin-right: 25px;
+}
+.active-info .active-container .active-content .note li input {
+  width: 90%;
+  height: 36px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 0;
+}
+.active-info .active-container .active-content .note li .remarks {
+  height: 88px;
+}
+.active-info .active-container .active-content .active-submit button {
+  width: 262px;
+  height: 46px;
+  background: #bd7400;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 0;
+  display: block;
+  margin: auto;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+@media (max-width: 767px) and (max-width: 992px) {
+  .active-box {
+    width: 100%;
+    height: 494px;
+    background: url("../images/active/active-mobile.jpg");
+    background-size: 100% 100%;
+    background-position: center center;
+  }
+  .active-info .active-container {
+    width: 96%;
+    height: 302px;
+    margin: auto;
+    background: url("../images/active/info-mobile.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    top: -16px;
+    padding: 18px 0px 0px;
+  }
+  .active-info .active-container .active-content ul {
+    margin-bottom: 0px;
+  }
+  .active-info .active-container .active-content .try-info {
+    width: 100%;
+  }
+  .active-info .active-container .active-content .try-info li {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+  .active-info .active-container .active-content .try-info li span {
+    color: #bd7400;
+    font-size: 12px;
+    margin-right: 15px;
+  }
+  .active-info .active-container .active-content .try-info li .active-tel {
+    margin-left: 0px;
+  }
+  .active-info .active-container .active-content .try-info li .active-real {
+    margin-left: -8%;
+  }
+  .active-info .active-container .active-content .try-info li input {
+    width: 67%;
+    height: 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 0;
+  }
+  .active-info .active-container .active-content .try-info li .manage {
+    width: 67%;
+    margin-left: -5px;
+  }
+  .active-info .active-container .active-content .note li {
+    margin-bottom: 10px;
+  }
+  .active-info .active-container .active-content .note li span {
+    color: #bd7400;
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  .active-info .active-container .active-content .note li input {
+    width: 87%;
+    height: 18px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 0;
+  }
+  .active-info .active-container .active-content .note li .remarks {
+    height: 78px;
+  }
+  .active-info .active-container .active-content .active-submit button {
+    width: 120px;
+    height: 20px;
+    background: #bd7400;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: 0;
+    display: block;
+    margin: auto;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1920px) {
+  .active-box {
+    height: 2054px;
+  }
+}
